@@ -1,0 +1,26 @@
+# Power BI
+*.pbix
+*.pbit
+
+# Office lock / temp files
+~$*
+*.tmp
+
+# Teacher-only material — never commit to the student repository
+*TEACHER*
+*_KEY*
+*ANSWER*
+
+# Student marks — never commit to a student-facing repository
+*.xlsx.marks
+*[Mm]arks*.xlsx
+*[Gg]rades*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store

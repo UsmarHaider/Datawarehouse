@@ -1,0 +1,39 @@
+OrderID,Branch,Date,Product,Category,Qty,Amount
+1001,LHR-Gulberg,12/09/2026,Cola 1.5L,Beverages,2,360
+1002,Lahore Gulberg,2026-09-12,CL-150,Bev.,1,Rs 180
+1003,KHI-Clifton,09-12-2026,Cola 1.5 Ltr,Beverages,3,540
+1004,ISB-F7,12 Sep 26,Masala Chips 50g,Snacks,4,200
+1004,ISB-F7,12 Sep 26,Masala Chips 50g,Snacks,4,200
+1005,khi clifton,12/09/2026,Fresh Milk 1L,,2,440
+1006,LHR-Gulberg,2026-09-12,Basmati Rice 5kg,Grocery,1,"2,450"
+1007,ISB-F7,12/09/2026,LED Bulb 12W,Electrical,-1,-350
+1008,Lahore Gulberg,12/09/2026,Cola 1.5L,Beverages,2,3600
+1009,ISB F-7,2026/09/12,Yogurt 500g,Dairy,3,510
+1010,Lahore Gulberg,2026-09-12,Orange Juice 1L,Beverages,1,320
+1011,LHR-Gulberg,12/09/2026,LED Bulb 12W,Electrical,1,350
+1012,ISB-F7,2026-09-12,Salted Biscuits Pack,Snacks,5,600
+1013,Lahore Gulberg,12 Sep 26,Cooking Oil 5L,grocery,5,"9,450"
+1014,KHI-Clifton,12/09/2026,Masala Chips 50g,snacks,2,100
+1015,ISB-F7,09-12-2026,Orange Juice 1L,Bev.,3,960
+1016,khi clifton,12/09/2026,LED Bulb 12W,Electronics,1,350
+1017,Lahore Gulberg,09-12-2026,Salted Biscuits Pack,Snacks,1,Rs 120
+1018,KHI-Clifton,2026-09-12,OJ-1L,Bev.,4,"1,280"
+1019,ISB F-7,12/09/2026,Salted Biscuits Pack,Snacks,3,360
+1020,ISB F-7,2026/09/12,Masala Chips 50g,snacks,4,200
+1021,KHI-Clifton,12 Sep 26,CL-150,Beverages,2,360
+1022,KHI-Clifton,2026-09-12,Salted Biscuits Pack,Snacks,5,600
+1023,ISB-F7,2026/09/12,Cooking Oil 5L,grocery,2,"3,780"
+1024,ISB-F7,12 Sep 26,Basmati Rice 5kg,Grocery,3,"7,350"
+1025,ISB F-7,12 Sep 26,Orange Juice 1L,Bev.,2,640
+1026,ISB-F7,12/09/2026,Basmati Rice 5kg,Grocery,5,12250
+1027,Lahore Gulberg,12 Sep 26,Yogurt 500g,dairy,1,170
+1028,LHR-Gulberg,09-12-2026,LED Bulb 12W,Electrical,2,700
+1029,ISB-F7,12/09/2026,Yogurt 500g,dairy,2,340
+1030,KHI-Clifton,2026-09-12,Cola 1.5L,Beverages,1,180
+1031,LHR-Gulberg,2026/09/12,Orange Juice 1L,Beverages,1,320
+1032,ISB-F7,12 Sep 26,Cooking Oil 5L,Grocery,5,"9,450"
+1033,ISB F-7,09-12-2026,Milk 1 Litre,,4,880
+1034,KHI-Clifton,12/09/2026,Orange Juice 1L,Beverages,2,640
+1035,LHR-Gulberg,2026-09-12,Cola 1.5L,Beverages,1,180
+1036,KHI-Clifton,12 Sep 26,Yogurt 500g,Dairy,1,170
+1037,Lahore Gulberg,12/09/2026,Cooking Oil 5L,grocery,2,3780
