@@ -15,6 +15,7 @@ Every week is a self-contained folder: a short README, the data, and one `TASKS.
 |---|---|---|---|
 | **1** | Introduction to DW & BI | L1 Fundamentals · L2 First hands-on connection | [`week1/`](week1/) |
 | **2** | DW Lifecycle & Architecture | L3 Architectural foundations · L4 Data ingestion | [`week2/`](week2/) |
+| **3** | Fact & Dimension Tables | L5 Facts, dimensions and the grain · L6 Surrogate keys and the first star schema | [`week3/`](week3/) |
 
 More weeks will be added here as the course runs.
 
@@ -31,6 +32,9 @@ cd week1/assignments
 python3 generate_week1_data.py
 
 # Week 2 — data is already committed, nothing to generate
+
+# Week 3 — data is already committed; open the workbook
+open week3/assignments/data/PakFreight_W3_StarBuilder_STUDENT.xlsx
 ```
 
 **Requirements:** Python 3.9+, and:
@@ -39,17 +43,18 @@ python3 generate_week1_data.py
 pip install pandas openpyxl
 ```
 
-**Power BI Desktop** is needed for the hands-on tasks (Week 1 Task 5, Week 2 Task 4). It is free, and Windows-only. On macOS or Linux use Power BI Service at `app.powerbi.com`, or a lab machine — just say which you used in your submission.
+**Power BI Desktop** is needed for the hands-on tasks (Week 1 Task 5, Week 2 Task 4, Week 3 lab). It is free, and Windows-only. On macOS or Linux use Power BI Service at `app.powerbi.com`, or a lab machine — just say which you used in your submission.
 
 > `.pbix` files are gitignored. Submit yours through the LMS, not by committing it here.
 
 ---
 
-## Course learning outcome
+## Course learning outcomes
 
-**CLO1 — Identify how a data warehouse supports organizational decision-making.**
+**CLO1 — Identify how a data warehouse supports organizational decision-making.** (Weeks 1–2)
+**CLO2 — Design dimensional models for analytical workloads.** (Week 3 onwards)
 
-Both weeks map to CLO1, and each lecture carries a 3C character strand:
+Each lecture carries a 3C character strand:
 
 | Lecture | Outcome | 3C |
 |---|---|---|
@@ -57,6 +62,8 @@ Both weeks map to CLO1, and each lecture carries a 3C character strand:
 | L2 | Establish a live connection between Power BI and an enterprise dataset to extract initial high-level summaries | Courage |
 | L3 | Describe the standard tiers of a data warehouse architecture and its lifecycle development phases | Competence |
 | L4 | Perform structured file imports from heterogeneous sources into a business intelligence tool environment | Courage |
+| L5 | Differentiate fact tables from dimension tables by declaring grain configurations and surrogate keys | Competence |
+| L6 | Implement a functional relational design linking fact metrics with descriptive dimension tables in Power BI | Courage |
 
 ---
 
@@ -128,3 +135,61 @@ Student marks must never be committed either — the same `.gitignore` blocks `*
 |---|---|
 | Kimball & Ross | *The Data Warehouse Toolkit* — Ch. 1 (architecture), Ch. 17 (lifecycle) |
 | Inmon | *Building the Data Warehouse* — Ch. 1–2 (the architected environment, CLDS) |
+
+---
+
+## Week 3 — Fact & Dimension Tables
+
+**CLO2 — Design dimensional models for analytical workloads.**
+
+Week 3 picks up PakFreight's one flat table from Week 2 and splits it into a
+star: **one fact table and five dimensions**, with the totals unchanged to the
+kilogram.
+
+| Task | Topic | Marks |
+|---|---|---|
+| 1 | Classify twelve columns: fact, dimension, degenerate or neither | 12 |
+| 2 | Declare the grain, for PakFreight and four new processes | 12 |
+| 3 | Additivity, and the ratio that disagrees with itself by 3% | 10 |
+| 4 | Build `DimCity` — 23 location strings conformed into 14 cities | 20 |
+| 5 | Build `DimRoute`, `DimMode`, `DimStatus`, `DimDate` | 20 |
+| 6 | Build `FactShipment` — six integer keys, no descriptive text | 15 |
+| 7 | **Reconcile.** Thirteen checks, all thirteen must pass | 8 |
+| lab | **Hands-on:** the same star in Power BI | — |
+
+### What makes this week different
+
+The workbook **marks itself**. T7 holds thirteen checks wired to the student's
+own T4, T5 and T6 sheets, and two of them are diagnostic: get Sindh/Marine
+wrong and it tells you which conforming decision you got wrong; get cost per
+kg wrong and it tells you that you averaged a ratio.
+
+Submitting with a single red cell loses all eight marks for T7. Thirteen out
+of thirteen, or it is not done.
+
+### The reconciliation targets
+
+| Check | Expected | | Check | Expected |
+|---|---|---|---|---|
+| Fact rows | 34 | | `DimCity` | 14 + Unknown |
+| Total weight | 578,650 kg | | `DimRoute` | 20 + Unknown |
+| Total cost | PKR 4,808,000 | | `DimDate` | 28 |
+| Sindh / Marine | 169,000 kg | | Punjab / Road | 44,100 kg |
+| Sindh, all modes | 484,350 kg | | Cost per kg | PKR 8.31 |
+
+### The lab
+
+[`week3/assignments/PowerBI_Lab_Guide.md`](week3/assignments/PowerBI_Lab_Guide.md)
+carries the M code for a gapless date dimension, the merge settings that
+matter and what breaks if each is wrong, the six relationships with their
+cardinality and cross-filter direction, the five DAX measures, and a
+definition of done.
+
+Steps 1–4 are done in class; steps 5–7 are homework, due before Week 4,
+because Week 4 starts by assuming the star works.
+
+### Teacher material
+
+The teacher key, the in-class quick check and its marking scheme, and the
+generator scripts are **not** in this repository. `.gitignore` blocks
+`*TEACHER*`, `*_KEY*` and `*ANSWER*` from ever being committed here.
