@@ -1,0 +1,16 @@
+CityKey,CityName,ProvinceKey,IsPortCity,FacilityType
+1,Karachi,1,Yes,Sea Port + Rail Hub
+2,Gwadar,2,Yes,Sea Port
+3,Lahore,3,No,Dry Port
+4,Multan,3,No,Inland Depot
+5,Islamabad,4,No,Dry Port
+6,Quetta,2,No,Inland Depot
+7,Faisalabad,3,No,Dry Port
+8,Rawalpindi,3,No,Rail Hub
+9,Sialkot,3,No,Dry Port
+10,Peshawar,5,No,Inland Depot
+11,Hyderabad,1,No,Inland Depot
+12,Sukkur,1,No,Inland Depot
+13,Gujranwala,3,No,Inland Depot
+14,Abbottabad,5,No,Inland Depot
+-1,Unknown,-1,No,Unknown

@@ -1,0 +1,5 @@
+ModeKey,ModeName,Carrier,TonnageClass,CostProfile,IsContainerised
+1,Marine,PakFreight Shipping Ltd,Heavy (10-25 t),Low cost / slow,Yes
+2,Rail,Pakistan Railways Freight,Bulk (25-35 t),Medium cost / medium,Partial
+3,Road,PakFreight Trucking,Light (5-8 t),High cost / fast,No
+-1,Unknown,Unknown,Unknown,Unknown,Unknown

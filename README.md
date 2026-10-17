@@ -16,6 +16,7 @@ Every week is a self-contained folder: a short README, the data, and one `TASKS.
 | **1** | Introduction to DW & BI | L1 Fundamentals · L2 First hands-on connection | [`week1/`](week1/) |
 | **2** | DW Lifecycle & Architecture | L3 Architectural foundations · L4 Data ingestion | [`week2/`](week2/) |
 | **3** | Fact & Dimension Tables | L5 Facts, dimensions and the grain · L6 Surrogate keys and the first star schema | [`week3/`](week3/) |
+| **4** | Dimensional Modeling | L7 Star schema against snowflake schema · L8 Relationships in Power BI | [`week4/`](week4/) |
 
 More weeks will be added here as the course runs.
 
@@ -35,6 +36,9 @@ python3 generate_week1_data.py
 
 # Week 3 — data is already committed; open the workbook
 open week3/assignments/data/PakFreight_W3_StarBuilder_STUDENT.xlsx
+
+# Week 4 — data is already committed; open the workbook
+open week4/assignments/data/PakFreight_W4_SchemaLab_STUDENT.xlsx
 ```
 
 **Requirements:** Python 3.9+, and:
@@ -43,7 +47,7 @@ open week3/assignments/data/PakFreight_W3_StarBuilder_STUDENT.xlsx
 pip install pandas openpyxl
 ```
 
-**Power BI Desktop** is needed for the hands-on tasks (Week 1 Task 5, Week 2 Task 4, Week 3 lab). It is free, and Windows-only. On macOS or Linux use Power BI Service at `app.powerbi.com`, or a lab machine — just say which you used in your submission.
+**Power BI Desktop** is needed for the hands-on tasks (Week 1 Task 5, Week 2 Task 4, Week 3 lab, Week 4 lab). It is free, and Windows-only. On macOS or Linux use Power BI Service at `app.powerbi.com`, or a lab machine — just say which you used in your submission.
 
 > `.pbix` files are gitignored. Submit yours through the LMS, not by committing it here.
 
@@ -64,6 +68,8 @@ Each lecture carries a 3C character strand:
 | L4 | Perform structured file imports from heterogeneous sources into a business intelligence tool environment | Courage |
 | L5 | Differentiate fact tables from dimension tables by declaring grain configurations and surrogate keys | Competence |
 | L6 | Implement a functional relational design linking fact metrics with descriptive dimension tables in Power BI | Courage |
+| L7 | Evaluate the normalization differences between Star and Snowflake schemas on query performance and maintenance cost | Courage |
+| L8 | Construct multi-table relational networks with correct cardinality and cross-filter directions | Competence |
 
 ---
 

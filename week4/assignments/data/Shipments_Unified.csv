@@ -1,0 +1,35 @@
+ShipmentID,ShipDate,Origin,Destination,WeightKG,CostPKR,Status,SourceSystem
+MR-1001,2026-02-01,Karachi Port,Lahore Dry Port,18000,142000,Delivered,Marine
+MR-1002,2026-02-02,Port Qasim,Faisalabad Dry Port,22500,171000,Delivered,Marine
+MR-1003,2026-02-03,Karachi Port,Lahore Dry Port,15000,119000,In Transit,Marine
+MR-1004,2026-02-04,Gwadar Port,Quetta,20000,188000,Delivered,Marine
+MR-1005,2026-02-05,Port Qasim,Multan,16500,128000,Delivered,Marine
+MR-1006,2026-02-06,Karachi Port,Sialkot Dry Port,19000,154000,Delayed,Marine
+MR-1007,2026-02-07,Port Qasim,Lahore Dry Port,14000,109000,Delivered,Marine
+MR-1008,2026-02-09,Karachi Port,Peshawar,21000,197000,In Transit,Marine
+MR-1009,2026-02-10,Gwadar Port,Karachi Cantt,17500,98000,Delivered,Marine
+MR-1010,2026-02-11,Port Qasim,Islamabad Dry Port,15500,139000,Delivered,Marine
+MR-1011,2026-02-12,Karachi Port,Hyderabad,13500,61000,In Transit,Marine
+MR-1012,2026-02-13,Port Qasim,Lahore Dry Port,14000,112000,Delivered,Marine
+RL-45012,2026-02-03,Karachi Cantt,Lahore,32500,285000,Delivered,Rail
+RL-45013,2026-02-03,Karachi Cantt,Rawalpindi,28750,301000,Delivered,Rail
+RL-45014,2026-02-04,Pipri Marshalling Yard,Faisalabad,30000,262000,In Transit,Rail
+RL-45015,2026-02-05,Karachi Cantt,Multan,26500,198000,Delivered,Rail
+RL-45016,2026-02-06,Pipri Marshalling Yard,Lahore,31250,276000,Delayed,Rail
+RL-45017,2026-02-07,Karachi Cantt,Peshawar Cantt,29000,334000,Delivered,Rail
+RL-45018,2026-02-09,Pipri Marshalling Yard,Rawalpindi,27500,289000,Delayed,Rail
+RL-45019,2026-02-10,Karachi Cantt,Lahore,33000,291000,Delivered,Rail
+RL-45020,2026-02-11,Karachi Cantt,Sukkur,28250,142000,In Transit,Rail
+RL-45021,2026-02-12,Pipri Marshalling Yard,Multan,28500,207000,Delivered,Rail
+RD-501,2026-02-02,Lahore,Islamabad,6500,58000,Delivered,Road
+RD-502,2026-02-02,Karachi,Hyderabad,7200,41000,Delivered,Road
+RD-503,2026-02-03,Lahore,Faisalabad,5800,32000,In Transit,Road
+RD-504,2026-02-04,Multan,Lahore,6900,61000,Delivered,Road
+RD-505,2026-02-05,Islamabad,Peshawar,6100,47000,Delivered,Road
+RD-506,2026-02-06,Karachi,Sukkur,7400,83000,Delayed,Road
+RD-507,2026-02-07,Lahore,Sialkot,5900,39000,Delivered,Road
+RD-508,2026-02-09,Quetta,Karachi,6600,92000,In Transit,Road
+RD-509,2026-02-10,Faisalabad,Multan,6200,44000,Delivered,Road
+RD-510,2026-02-11,Lahore,Gujranwala,7000,27000,Delivered,Road
+RD-511,2026-02-12,Karachi,Hyderabad,5500,36000,In Transit,Road
+RD-512,2026-02-13,Rawalpindi,Abbottabad,5800,45000,Delivered,Road

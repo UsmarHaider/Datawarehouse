@@ -1,0 +1,5 @@
+StatusKey,StatusName,IsClosed,IsException,DisplayOrder
+1,Delivered,Yes,No,1
+2,In Transit,No,No,2
+3,Delayed,No,Yes,3
+-1,Unknown,No,Yes,99
