@@ -17,6 +17,7 @@ Every week is a self-contained folder: a short README, the data, and one `TASKS.
 | **2** | DW Lifecycle & Architecture | L3 Architectural foundations · L4 Data ingestion | [`week2/`](week2/) |
 | **3** | Fact & Dimension Tables | L5 Facts, dimensions and the grain · L6 Surrogate keys and the first star schema | [`week3/`](week3/) |
 | **4** | Dimensional Modeling | L7 Star schema against snowflake schema · L8 Relationships in Power BI | [`week4/`](week4/) |
+| **5** | The ETL Process | L9 Extract, transform, load and what each stage guarantees · L10 Power Query, live | [`week5/`](week5/) |
 
 More weeks will be added here as the course runs.
 
@@ -39,6 +40,9 @@ open week3/assignments/data/PakFreight_W3_StarBuilder_STUDENT.xlsx
 
 # Week 4 — data is already committed; open the workbook
 open week4/assignments/data/PakFreight_W4_SchemaLab_STUDENT.xlsx
+
+# Week 5 — data is already committed; open the workbook
+open week5/assignments/data/PakFreight_W5_ETLLab_STUDENT.xlsx
 ```
 
 **Requirements:** Python 3.9+, and:
@@ -47,7 +51,7 @@ open week4/assignments/data/PakFreight_W4_SchemaLab_STUDENT.xlsx
 pip install pandas openpyxl
 ```
 
-**Power BI Desktop** is needed for the hands-on tasks (Week 1 Task 5, Week 2 Task 4, Week 3 lab, Week 4 lab). It is free, and Windows-only. On macOS or Linux use Power BI Service at `app.powerbi.com`, or a lab machine — just say which you used in your submission.
+**Power BI Desktop** is needed for the hands-on tasks (Week 1 Task 5, Week 2 Task 4, Week 3 lab, Week 4 lab, Week 5 lab). It is free, and Windows-only. On macOS or Linux use Power BI Service at `app.powerbi.com`, or a lab machine — just say which you used in your submission. Week 5's lab is Power Query, which also ships inside Excel (**Data → Get Data**) if that is easier.
 
 > `.pbix` files are gitignored. Submit yours through the LMS, not by committing it here.
 

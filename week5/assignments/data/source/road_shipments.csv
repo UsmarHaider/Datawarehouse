@@ -1,0 +1,16 @@
+trip_id,trip_date,from_city,to_city,weight_kg,cost_pkr,status
+rd-501,2026-02-02,Lahore,Islamabad,6500,58000,delivered
+rd-502,2026-02-02,Karachi,Hyderabad,7200,41000,delivered
+rd-503,2026-02-03,Lahore,Faisalabad,5800,32000,in transit 
+rd-504,2026-02-04,Multan,Lahore,6900,61000,delivered
+rd-505,2026-02-05,Islamabad,Peshawar,6100,47000,delivered
+rd-505,2026-02-05,Islamabad,Peshawar,6100,47000,delivered
+rd-506,2026-02-06,Karachi,Sukkur,7400,83000,delayed
+rd-507,2026-02-07,Lahore,Sialkot,5900,39000,delivered
+rd-508,2026-02-09,Quetta,Karachi,6600,92000,in transit
+rd-509,2026-02-10,Faisalabad,Multan,6200,44000,delivered 
+rd-510,2026-02-11,Lahore,Gujranwala,7000,27000,delivered
+rd-511,2026-02-12,Karachi,Hyderabad,5500,36000, in transit
+rd-512,2026-02-13,Rawalpindi,Abbottabad,5800,45000,delivered
+,,,,,,
+TOTAL,,,,83000,652000,

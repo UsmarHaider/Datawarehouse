@@ -1,0 +1,22 @@
+RouteKey,OriginCityKey,DestCityKey,RouteName,Corridor,DistanceBand
+1,1,3,Karachi -> Lahore,North-South Trunk,"1,000-1,500 km"
+2,1,7,Karachi -> Faisalabad,North-South Trunk,"1,000-1,500 km"
+3,2,6,Gwadar -> Quetta,Makran-Balochistan,"500-1,000 km"
+4,1,4,Karachi -> Multan,North-South Trunk,"500-1,000 km"
+5,1,9,Karachi -> Sialkot,North-South Trunk,"1,000-1,500 km"
+6,1,10,Karachi -> Peshawar,North-South Trunk,"over 1,500 km"
+7,2,1,Gwadar -> Karachi,Coastal,"500-1,000 km"
+8,1,5,Karachi -> Islamabad,North-South Trunk,"1,000-1,500 km"
+9,1,11,Karachi -> Hyderabad,Sindh Local,under 500 km
+10,1,8,Karachi -> Rawalpindi,North-South Trunk,"1,000-1,500 km"
+11,1,12,Karachi -> Sukkur,Sindh Local,"500-1,000 km"
+12,3,5,Lahore -> Islamabad,Punjab-North,under 500 km
+13,3,7,Lahore -> Faisalabad,Punjab Local,under 500 km
+14,4,3,Multan -> Lahore,Punjab Local,under 500 km
+15,5,10,Islamabad -> Peshawar,Punjab-North,under 500 km
+16,3,9,Lahore -> Sialkot,Punjab Local,under 500 km
+17,6,1,Quetta -> Karachi,Makran-Balochistan,"500-1,000 km"
+18,7,4,Faisalabad -> Multan,Punjab Local,under 500 km
+19,3,13,Lahore -> Gujranwala,Punjab Local,under 500 km
+20,8,14,Rawalpindi -> Abbottabad,Punjab-North,under 500 km
+-1,-1,-1,Unknown,Unknown,Unknown
