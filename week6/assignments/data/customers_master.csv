@@ -1,0 +1,47 @@
+CustomerID,CustomerName,City,Sector,SignedUp
+CU-101,Indus Textiles Ltd,Faisalabad,Textiles,2025-09-12
+CU-102,Shahbaz Cement Co,Hyderabad,Construction,2024-04-06
+CU-103,Karachi Steel Mills,Karachi,Metals,2025-02-09
+CU-104,Pak Agro Exports,Multan,Agriculture,2025-05-05
+CU-105,Ravi Pharma Ltd,Lahore,Pharma,2024-02-28
+CU-106,Nishtar Sugar Mills,Multan,Food,2025-01-02
+CU-107,Bolan Marble Works,Quetta,Minerals,2025-03-09
+CU-108,Gulberg Garments,Lahore,Textiles,2024-09-22
+CU-109,Sialkot Sports Co,Sialkot,Manufacturing,2025-02-06
+CU-110,Attock Chemicals,Rawalpindi,Chemicals,2024-09-06
+CU-111,Makran Seafoods,Gwadar,Food,2024-07-14
+CU-112,Lyallpur Spinning,Faisalabad,Textiles,2024-03-14
+CU-113,Hunza Mineral Water,Abbottabad,Food,2025-06-07
+CU-114,Thar Coal Logistics,Karachi,Minerals,2025-06-07
+CU-115,Multan Mango Exports,Multan,Agriculture,2024-05-03
+CU-116,Swat Timber Traders,Peshawar,Timber,2024-08-29
+CU-117,Quetta Fruit Company,Quetta,Agriculture,2024-02-12
+CU-118,Hyderabad Glassworks,Hyderabad,Manufacturing,2025-05-25
+CU-119,Sukkur Rice Mills,Sukkur,Agriculture,2024-04-12
+CU-120,Gujranwala Fans Ltd,Gujranwala,Manufacturing,2024-08-11
+CU-121,Chenab Paper Mills,Faisalabad,Paper,2025-05-05
+CU-122,Peshawar Leather Co,Peshawar,Leather,2025-06-07
+CU-123,Clifton Electronics,Karachi,Electronics,2025-06-04
+CU-124,Mehran Auto Parts,Karachi,Automotive,2024-12-05
+CU-125,Korangi Plastics,Karachi,Chemicals,2025-03-31
+CU-126,Faisalabad Looms,Faisalabad,Textiles,2024-08-20
+CU-127,Abbottabad Herbals,Abbottabad,Pharma,2024-12-18
+CU-128,Rawal Packaging,Islamabad,Paper,2024-09-04
+CU-129,Sindh Fertilizers,Sukkur,Chemicals,2025-09-09
+CU-130,Zarghoon Minerals,Quetta,Minerals,2025-06-03
+CU-131,Lahore Tyre Company,Lahore,Automotive,2024-10-27
+CU-132,Port Qasim Bulk Handlers,Karachi,Logistics,2025-06-27
+CU-133,Malir Dairy Products,Karachi,Food,2024-06-30
+CU-134,Okara Poultry Feeds,Lahore,Food,2024-05-08
+CU-135,Jhelum Bricks Ltd,Rawalpindi,Construction,2024-02-28
+CU-136,Kohat Tobacco Co,Peshawar,Agriculture,2025-08-03
+CU-137,Sahiwal Textiles,Multan,Textiles,2024-12-08
+CU-138,Larkana Cotton Traders,Sukkur,Agriculture,2024-04-07
+CU-139,Nowshera Pipes Ltd,Peshawar,Metals,2025-07-11
+CU-140,Keamari Cold Storage,Karachi,Logistics,2025-08-27
+CU-901,INDUS TEXTILES LIMITED,Faisalabad,Textiles,2025-06-25
+CU-902,Karachi Steel Mills.,Karachi,Metals,2025-06-23
+CU-903,Pak Agro Exports (Pvt) Ltd,Multan,Agriculture,2025-12-15
+CU-904,Sialkot Sports Company,Sialkot,Manufacturing,2025-10-10
+CU-905,Sukkur  Rice Mills,Sukkur,Agriculture,2026-01-19
+CU-906,lahore tyre co,Lahore,Automotive,2025-10-18

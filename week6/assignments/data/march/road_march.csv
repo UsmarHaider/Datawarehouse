@@ -1,0 +1,711 @@
+trip_id,trip_date,from_city,to_city,weight_kg,cost_pkr,status,customer_id
+rd-5472,2026-03-08,Lahore,Gujranwala,6800,41500,delivered,CU-129
+rd-5298,2026-03-20,Lahore,Islamabad,6900,45500,delivered,CU-133
+rd-5395,2026-03-17,Lahore,Gujranwala,6800,55500,delivered,CU-125
+rd-5310,2026-03-04,Karachi,Hyderabad,7000,51000,delivered,CU-101
+rd-5035,2026-03-03,Karachi,Hyderabad,6400,42000,delivered,CU-113
+rd-5421,2026-03-27,Lahore,Faisalabad,7200,48000,delivered,CU-102
+rd-5240,2026-03-16,Faisalabad,Multan,6700,48000,delivered,CU-903
+rd-5597,2026-03-05,Lahore,Faisalabad,6200,37500,delivered,CU-111
+rd-5106,2026-03-28,Lahore,Sialkot,6600,42500,delivered,CU-901
+rd-5393,2026-03-25,Quetta,Karachi,6600,51000,delayed,CU-110
+rd-5450,2026-03-07,Lahore,Gujranwala,6400,38500,delivered,CU-130
+rd-5017,2026-03-20,Karachi,Sukkur,5900,41000,delivered,CU-131
+rd-5004,2026-03-14,Multan,Lahore,6700,42000,in transit,CU-128
+rd-5230,2026-03-04,Lahore,Gujranwala,6900,53500,delivered ,CU-107
+rd-5374,2026-03-02,Rawalpindi,Abbottabad,7000,42000,delivered,CU-108
+rd-5484,2026-03-19,Rawalpindi,Abbottabad,5600,41000,delivered,CU-128
+rd-5272,2026-03-30,Quetta,Karachi,5800,37500,delivered,CU-133
+rd-5511,2026-03-22,Islamabad,Peshawar,5600,41000,delivered,CU-139
+rd-5052,2026-03-15,Quetta,Karachi,6300,37500,delivered,CU-115
+rd-5548,2026-03-09,Faisalabad,Multan,7200,57000,delivered,CU-125
+rd-5222,2026-03-25,Karachi,Hyderabad,6500,48500,delivered,CU-904
+rd-5326,2026-03-14,Lahore,Sialkot,7400,47000,delivered,CU-132
+rd-5535,2026-03-28,Lahore,Sialkot,5800,38500,in transit,CU-906
+rd-5238,2026-03-01,Lahore,Sialkot,6300,42500,delivered,CU-123
+rd-5907,31/02/2026,Lahore,Islamabad,6300,44500,delivered,CU-123
+rd-5002,2026-03-08,Karachi,Hyderabad,5900,46000,delivered,CU-101
+rd-5514,2026-03-26,Quetta,Karachi,6200,48000,in transit,CU-125
+rd-5144,2026-03-29,Lahore,Islamabad,6800,53000,delivered ,CU-108
+rd-5132,2026-03-23,Rawalpindi,Abbottabad,6500,45000,delivered,CU-125
+rd-5095,2026-03-01,Lahore,Sialkot,5700,40500,delivered,CU-105
+rd-5243,2026-03-19,Lahore,Islamabad,7200,46500,delivered,CU-117
+rd-5440,2026-03-11,Rawalpindi,Abbottabad,5900,47500,delivered,CU-134
+rd-5497,2026-03-14,Karachi,Hyderabad,6100,50500,delivered ,CU-140
+rd-5186,2026-03-30,Lahore,Gujranwala,6600,45500,in transit,CU-130
+rd-5084,2026-03-17,Lahore,Sialkot,6300,50500,delayed,CU-138
+rd-5604,2026-03-20,Lahore,Gujranwala,6200,39000,delivered,CU-906
+rd-5339,2026-03-04,Faisalabad,Multan,6400,41500,delivered ,CU-901
+rd-5257,2026-03-01,Multan,Lahore,5900,40500,delivered,CU-111
+rd-5625,2026-03-31,Faisalabad,Multan,5900,43000,delivered ,CU-130
+rd-5363,2026-03-17,Rawalpindi,Abbottabad,7400,49500,in transit,CU-108
+rd-5570,2026-03-24,Faisalabad,Multan,7300,52000,delivered,CU-111
+rd-5246,2026-03-01,Multan,Lahore,6600,55000,delivered,CU-102
+rd-5405,2026-03-12,Faisalabad,Multan,6800,56000,delivered,CU-133
+rd-5410,2026-03-06,Lahore,Faisalabad,6900,42500,delayed,CU-134
+rd-5147,2026-03-07,Multan,Lahore,6900,57500,delivered,CU-114
+rd-5581,2026-03-31,Faisalabad,Multan,6100,45000,delayed,CU-137
+rd-5903,2026-03-29,Quetta,Karachi,unknown,49000,in transit,CU-904
+rd-5050,2026-03-18,Karachi,Sukkur,7100,56000,in transit,CU-101
+rd-5070,2026-03-11,Multan,Lahore,6100,39000,delivered,CU-130
+rd-5320,2026-03-29,Lahore,Islamabad,5500,44500,delayed,CU-116
+rd-5505,2026-03-26,Lahore,Gujranwala,6800,42000,in transit,CU-123
+rd-5191,2026-03-22,Multan,Lahore,7100,43500,delivered,CU-119
+rd-5457 ,2026-03-13,Karachi,Sukkur,5700,42000,delivered,CU-125
+rd-5063,2026-03-14,Wagah Border,Karachi,6500,40500,delivered,CU-905
+rd-5617,2026-03-26,Lahore,Islamabad,7300,44500,in transit,CU-118
+rd-5564,2026-03-08,Lahore,Faisalabad,5900,45000,delivered,CU-905
+rd-5639,2026-03-11,Lahore,Islamabad,6300,37000,delivered,CU-110
+rd-5190,2026-03-01,Lahore,Faisalabad,5700,41500,in transit,CU-134
+rd-5580,2026-03-31,Quetta,Karachi,7000,49500,delivered,CU-906
+rd-5471,2026-03-01,Faisalabad,Multan,6500,48000,delivered,CU-117
+rd-5405,2026-03-12,Faisalabad,Multan,6800,56000,delivered,CU-133
+rd-5318,2026-03-16,Lahore,Gujranwala,6700,43500,delivered,CU-129
+rd-5072,2026-03-04,Karachi,Sukkur,6200,46000,delivered,CU-105
+rd-5140,2026-03-07,Quetta,Karachi,7100,47000,in transit,CU-137
+rd-5416,2026-03-11,Faisalabad,Multan,7000,51500,in transit,CU-113
+rd-5266,2026-03-22,Karachi,Hyderabad,6900,53500,in transit,CU-906
+rd-5383,2026-03-07,Faisalabad,Multan,6700,47000,delivered,CU-103
+rd-5600,2026-03-06,Karachi,Sukkur,6100,41500,delivered,CU-132
+rd-5019,2026-03-23,Quetta,Karachi,7400,57000,delivered,CU-903
+rd-5297,2026-03-28,Rawalpindi,Abbottabad,6400,44500,delayed,CU-133
+rd-5376 ,2026-03-30,Karachi,Hyderabad,5900,38000,delivered,CU-125
+rd-5338,2026-03-09,Quetta,Karachi,5800,39500,delayed,CU-116
+rd-5554,2026-03-04,Multan,Lahore,6900,41500,delivered,CU-113
+rd-5653,2026-03-05,Multan,Lahore,7400,57000,delayed,CU-138
+rd-5282,2026-03-03,Lahore,Sialkot,7100,58000,in transit,CU-102
+rd-5294,2026-03-05,Quetta,Karachi,7100,44500,delivered,CU-120
+rd-5086,2026-03-06,Faisalabad,Multan,7100,48500,delivered,CU-135
+rd-5259,2026-03-27,Karachi,Sukkur,6200,50000,in transit,CU-119
+rd-5603,2026-03-26,Faisalabad,Multan,6000,42000,delivered ,CU-102
+rd-5370,2026-03-10,Lahore,Sialkot,5500,39000,delivered,CU-108
+rd-5524,2026-03-31,Lahore,Sialkot,6700,54500,in transit,CU-106
+rd-5621,2026-03-09,Islamabad,Peshawar,6800,49000,delivered,CU-122
+rd-5120,2026-03-30,Lahore,Gujranwala,6300,39000,delivered,CU-130
+rd-5231,2026-03-19,Rawalpindi,Abbottabad,6200,47500,delivered,CU-132
+rd-5271,2026-03-26,Lahore,Sialkot,6600,49500,delivered,CU-134
+rd-5479,2026-03-03,Karachi,Sukkur,5700,42500,delivered,CU-124
+rd-5526,2026-03-07,Faisalabad,Multan,6000,38500,delivered,CU-122
+rd-5573,2026-03-07,Lahore,Islamabad,6500,44000,delayed,CU-905
+rd-5367,2026-03-26,Multan,Lahore,7200,60000,delivered,CU-133
+rd-5334,2026-03-14,Multan,Lahore,6500,38000,in transit,CU-112
+rd-5649,2026-03-21,Rawalpindi,Abbottabad,6200,52000,delivered,CU-138
+rd-5400,2026-03-23,Multan,Lahore,5600,43500,delivered,CU-102
+rd-5196,2026-03-21,Faisalabad,Multan,5600,40000, delivered,CU-110
+rd-5030,2026-03-02,Quetta,Karachi,5800,46500,delivered,CU-121
+rd-5586,2026-03-25,Lahore,Faisalabad,5600,36500,delivered,CU-903
+rd-5151,2026-03-11,Quetta,Karachi,5900,43000,delivered,CU-121
+rd-5520,2026-03-15,Lahore,Faisalabad,5900,49000,in transit,CU-119
+rd-5114,2026-03-05,Multan,Lahore,6900,57000,delayed,CU-138
+rd-5357,2026-03-07,Islamabad,Peshawar,6000,35500,delivered,CU-905
+rd-5381,2026-03-29,Lahore,Sialkot,5600,39000,delayed,CU-101
+rd-5102,2026-03-31,Lahore,Faisalabad,5800,44500,delayed,CU-138
+rd-5498,2026-03-03,Lahore,Faisalabad,6500,39000,in transit,CU-115
+rd-5333,2026-03-24,Lahore,Faisalabad,7100,42500,delivered,CU-103
+rd-5512,2026-03-20,Karachi,Sukkur,6700,54500,delayed,CU-117
+rd-5338,2026-03-09,Quetta,Karachi,5800,39500,delayed,CU-116
+rd-5237,2026-03-04,Karachi,Sukkur,5500,33500,delivered,CU-140
+rd-5415,2026-03-28,Quetta,Karachi,6100,50500,in transit,CU-113
+rd-5303,2026-03-16,Karachi,Sukkur,6600,48500,delivered,CU-111
+rd-5315,2026-03-25,Lahore,Sialkot,7400,44000,in transit,CU-128
+rd-5568,2026-03-10,Lahore,Sialkot,6000,-50000,delivered,CU-116
+rd-5435,2026-03-16,Karachi,Sukkur,6200,38500,delayed,CU-130
+rd-5300,2026-03-03,Lahore,Faisalabad,6200,44000,in transit,CU-101
+rd-5519,2026-03-14,Karachi,Hyderabad,5600,45500,in transit,CU-904
+rd-5522,2026-03-25,Islamabad,Peshawar,7400,51500,delivered,CU-128
+rd-5550,2026-03-12,Rawalpindi,Abbottabad,5500,33500,in transit,CU-902
+rd-5605,2026-03-01,Rawalpindi,Abbottabad,7300,46500,in transit,CU-906
+rd-5343,2026-03-02,Karachi,Hyderabad,6200,45000,delayed,CU-103
+rd-5098,2026-03-08,Lahore,Gujranwala,7100,42500,delivered,CU-906
+rd-5458,2026-03-30,Lahore,Sialkot,6900,41000,delayed,CU-111
+rd-5156,2026-03-28,Karachi,Hyderabad,7200,43000,delivered,CU-137
+rd-5468,2026-03-03,Karachi,Sukkur,7100,57000, delayed,CU-129
+rd-5244,2026-03-16,Karachi,Hyderabad,7200,45500,delivered,CU-127
+rd-5344,2026-03-13,Lahore,Faisalabad,7000,51000,delivered,CU-110
+rd-5540,2026-03-07,Lahore,Islamabad,7300,50500,delayed,CU-105
+rd-5138,2026-03-17,Karachi,Sukkur,6700,43500,delivered,CU-128
+rd-5485,2026-03-29,Lahore,Islamabad,6400,47500,in transit,CU-902
+rd-5457,2026-03-13,Karachi,Sukkur,5700,42000,delivered,CU-125
+rd-5015,2026-03-13,Multan,Lahore,5700,46000,in transit ,CU-110
+rd-5513,2026-03-08,Lahore,Sialkot,5900,44000,in transit ,CU-124
+rd-5444,2026-03-27,Multan,Lahore,6700,55500,delivered,CU-904
+rd-5149,2026-03-16,Karachi,Sukkur,5800,38500, delivered,CU-125
+rd-5419,2026-03-19,Lahore,Islamabad,6500,46000,delivered,CU-905
+rd-5555,2026-03-07,Islamabad,Peshawar,6000,42000,delayed,CU-122
+rd-5012,2026-03-23,Lahore,Islamabad,5900,41000,delivered,CU-112
+rd-5177,2026-03-20,Lahore,Islamabad,7200,50500,delivered,CU-902
+rd-5506,2026-03-24,Rawalpindi,Abbottabad,5600,44500,delivered,CU-135
+rd-5518,2026-03-20,Lahore,Islamabad,5600,35000,in transit,CU-134
+rd-5152,2026-03-02,Faisalabad,Multan,6200,37000,delayed,CU-112
+rd-5148,2026-03-20,Islamabad,Peshawar,6400,40000,delivered,CU-132
+rd-5399,2026-03-02,Lahore,Faisalabad,7200,47500,delivered,CU-102
+rd-5203,2026-03-10,Islamabad,Peshawar,7100,56500,delivered,CU-118
+rd-5289,2026-03-03,Lahore,Faisalabad,7300,56000,in transit,CU-111
+rd-5529,2026-03-02,Lahore,Islamabad,7300,60500,delivered,CU-130
+rd-5908,2026-03-29,Karachi,Hyderabad,-7200,51000,in transit,CU-906
+rd-5100,2026-03-11,Lahore,Islamabad,5500,39500,delivered,CU-129
+rd-5273,2026-03-03,Faisalabad,Multan,6000,47500,delivered,CU-104
+rd-5481,2026-03-03,Quetta,Karachi,5700,47500,delivered,CU-127
+rd-5635,2026-03-30,Quetta,Karachi,6900,40500,delivered,CU-136
+rd-5067,2026-03-30,Lahore,Islamabad,7000,47000,delivered,CU-134
+rd-5636,2026-03-31,Faisalabad,Multan,5900,47500,delivered,CU-139
+rd-5546,2026-03-22,Lahore,Sialkot,5700,37500,delivered,CU-105
+rd-5495,2026-03-28,Rawalpindi,Abbottabad,5900,41000,delivered,CU-139
+rd-5209,2026-03-13,Rawalpindi,Abbottabad,6000,38000,delivered,CU-127
+rd-5201,2026-03-25,Lahore,Faisalabad,5700,34000,delivered,CU-129
+rd-5385,2026-03-14,Rawalpindi,Abbottabad,5700,38000,delivered,CU-117
+rd-5494,2026-03-14,Lahore,Gujranwala,6200,40000,delivered,CU-137
+rd-5062,2026-03-18,Lahore,Sialkot,5600,46500,delivered,CU-121
+rd-5172,2026-03-18,Lahore,Sialkot,5700,42500,delivered,CU-105
+rd-5296,2026-03-29,Lahore,Gujranwala,5900,46500,delivered,CU-901
+rd-5351,2026-03-22,Lahore,Gujranwala,7300,53000,delivered,CU-105
+rd-5247,2026-03-17,Islamabad,Peshawar,5700,46000,in transit,CU-133
+rd-5380,2026-03-16,Karachi,Sukkur,6100,43000,in transit,CU-113
+rd-5015,2026-03-13,Multan,Lahore,5700,46000,in transit ,CU-110
+rd-5134,2026-03-08,Karachi,Hyderabad,6400,48000,delivered,CU-133
+rd-5037,2026-03-22,Multan,Lahore,6800,55500,in transit,CU-104
+rd-5351,2026-03-22,Lahore,Gujranwala,7300,53000,delivered,CU-105
+rd-5187,2026-03-09,Rawalpindi,Abbottabad,6700,50000,in transit,CU-132
+rd-5232,2026-03-06,Lahore,Islamabad,5600,37500,delivered,CU-108
+rd-5317,2026-03-14,Faisalabad,Multan,5900,48500,delayed,CU-117
+rd-5193,2026-03-22,Karachi,Sukkur,6500,51500,delivered,CU-130
+rd-5034,2026-03-30,Lahore,Islamabad,7100,48500,delivered,CU-137
+rd-5056,2026-03-12,Lahore,Islamabad,6900,49000,in transit,CU-122
+rd-5642,2026-03-11,Multan,Lahore,6400,47500,delivered,CU-105
+rd-5446,2026-03-17,Karachi,Sukkur,5800,39500,delivered,CU-128
+rd-5141,2026-03-08,Faisalabad,Multan,6700,40500,in transit,CU-106
+rd-5556,2026-03-13,Karachi,Sukkur,6800,44000, delivered,CU-136
+rd-5596,2026-03-15,Karachi,Hyderabad,6200,44000,in transit,CU-128
+rd-5628,2026-03-02,Lahore,Islamabad,7100,48000,in transit,CU-103
+rd-5236,2026-03-13,Islamabad,Peshawar,6900,55000,delivered,CU-117
+rd-5200,2026-03-24,Wagah Border,Hyderabad,5700,37500,delivered,CU-110
+rd-5028,2026-03-15,Karachi,Sukkur,5900,40000,delayed,CU-133
+rd-5097,2026-03-17,Faisalabad,Multan,6900,50500,delivered,CU-120
+rd-5459,2026-03-18,Quetta,Karachi,6700,52000,held at customs,CU-132
+rd-5071,2026-03-21,Islamabad,Peshawar,6100,41500,delivered,CU-126
+rd-5492,2026-03-08,Quetta,Karachi,6300,44500,in transit,CU-108
+rd-5345,2026-03-22,Multan,Lahore,5700,47500,in transit,CU-110
+rd-5074,2026-03-21,Quetta,Karachi,7400,45000,delivered,CU-140
+rd-5327,2026-03-07,Quetta,Karachi,6600,53000,delayed,CU-127
+rd-5215,2026-03-05,Karachi,Sukkur,6300,42500,delivered,CU-135
+rd-5135,2026-03-08,Lahore,Faisalabad,7400,53000,delivered,CU-115
+rd-5047,2026-03-04,Lahore,Faisalabad,7000,44000,delivered,CU-103
+rd-5379,2026-03-22,Taftan Crossing,Peshawar,6800,56000,delivered,CU-135
+rd-5906,Mar-2026,Rawalpindi,Abbottabad,7100,50500,delivered,CU-128
+rd-5353,2026-03-29,Lahore,Islamabad,6500,45500,delivered,CU-134
+rd-5595,2026-03-07,Lahore,Islamabad,7300,56000,in transit,CU-115
+rd-5358,2026-03-28,Karachi,Sukkur,5500,38000,delayed,CU-117
+rd-5235,2026-03-05,Multan,Lahore,7000,57500,in transit,CU-906
+rd-5567,2026-03-02,Karachi,Sukkur,6100,51000,delivered,CU-116
+rd-5286,2026-03-13,Rawalpindi,Abbottabad,7100,44000,delivered,CU-129
+rd-5110,2026-03-12,Rawalpindi,Abbottabad,6400,38500,delivered,CU-115
+rd-5009,2026-03-30,Faisalabad,Multan,6100,37500,delivered,CU-114
+rd-5593,2026-03-29,Lahore,Gujranwala,6100,35500,delivered,CU-108
+rd-5401,2026-03-05,Islamabad,Peshawar,6000,36000,delivered,CU-118
+rd-5552,2026-03-04,Karachi,Hyderabad,6300,43000,delivered,CU-116
+rd-5406,2026-03-13,Lahore,Gujranwala,7100,54000,delivered,CU-139
+rd-5261,2026-03-02,Quetta,Karachi,7100,56500,delivered,CU-136
+rd-5042,2026-03-15,Faisalabad,Multan,5600,42500,delivered,CU-115
+rd-5171,2026-03-12,Karachi,Sukkur,6700,41500,delivered,CU-102
+rd-5010,2026-03-21,Lahore,Gujranwala,6400,47500,delivered,CU-108
+rd-5143,2026-03-20,Rawalpindi,Abbottabad,6300,47000,delivered,CU-121
+rd-5624,2026-03-12,Quetta,Karachi,5600,37500,in transit,CU-117
+rd-5375,2026-03-18,Lahore,Islamabad,6300,45000,delivered,CU-137
+rd-5910,2026-03-16,Multan,Lahore,-6300,44500,in transit,CU-107
+rd-5165,2026-03-12,Rawalpindi,Abbottabad,6400,50000,delivered,CU-123
+rd-5223,2026-03-29,Lahore,Faisalabad,6200,46000,in transit,CU-111
+rd-5602,2026-03-22,Quetta,Karachi,6000,48500,delivered,CU-101
+rd-5346,2026-03-10,Islamabad,Peshawar,5500,35000,delivered,CU-119
+rd-5650,2026-03-30,Lahore,Islamabad,6000,35000,delivered,CU-125
+rd-5508,2026-03-22,Karachi,Hyderabad,5800,34000,in transit,CU-124
+rd-5330,2026-03-11,Rawalpindi,Abbottabad,6100,36000,delivered,CU-113
+rd-5390,2026-03-29,Islamabad,Peshawar,7300,52000,delayed,CU-113
+rd-5045,2026-03-08,Lahore,Islamabad,6400,46500,delivered,CU-122
+rd-5502,2026-03-02,Lahore,Sialkot,6900,49500,delivered,CU-124
+rd-5598,2026-03-10,Multan,Lahore,7100,55000,in transit,CU-118
+rd-5204,2026-03-03,Karachi,Sukkur,6700,54000,delivered,CU-111
+rd-5092,2026-03-19,Multan,Lahore,7400,59000,delivered,CU-120
+rd-5362,2026-03-07,Lahore,Gujranwala,6000,48000,delivered,CU-102
+rd-5397,2026-03-10,Lahore,Islamabad,7000,44000,delivered,CU-120
+rd-5574,2026-03-17,Karachi,Hyderabad,7100,57500,delivered,CU-130
+rd-5125,2026-03-05,Multan,Lahore,6700,53000,delivered,CU-120
+rd-5073,2026-03-06,Lahore,Sialkot,5600,36000,delivered,CU-115
+rd-5185,2026-03-04,Faisalabad,Multan,7200,57500,in transit,CU-904
+rd-5584,2026-03-24,Lahore,Islamabad,5500,38000,delivered,CU-111
+rd-5591,2026-03-10,Quetta,Karachi,7400,61500,delivered,CU-131
+rd-5549,2026-03-08,Lahore,Gujranwala,5500,39500,in transit,CU-122
+rd-5139,2026-03-07,Lahore,Sialkot,6700,43000,delivered,CU-114
+rd-5631,2026-03-30,Multan,Lahore,6000,35500,delayed,CU-901
+rd-5643 ,2026-03-20,Islamabad,Peshawar,5500,33500,in transit,CU-904
+rd-5027,2026-03-26,Islamabad,Peshawar,6800,50500,delivered,CU-128
+rd-5304,2026-03-16,Lahore,Sialkot,6900,49500,in transit,CU-135
+rd-5449,2026-03-18,Faisalabad,Multan,6700,44500,in transit,CU-109
+rd-5195,2026-03-29,Torkham Gate,Karachi,6900,47000,delivered,CU-906
+rd-5207,2026-03-12,Faisalabad,Multan,5600,33500,delivered,CU-115
+rd-5027,2026-03-26,Islamabad,Peshawar,6800,50500,delivered,CU-128
+rd-5133,2026-03-08,Lahore,Islamabad,5600,45500,in transit,CU-108
+rd-5544,2026-03-01,Islamabad,Peshawar,5900,43500,delivered,CU-123
+rd-5285,2026-03-01,Lahore,Gujranwala,6000,41000,delivered,CU-115
+rd-5307,2026-03-30,Lahore,Gujranwala,7300,48000,delayed,CU-902
+rd-5249,2026-03-28,Lahore,Sialkot,6300,38000,delivered,CU-103
+rd-5517,2026-03-01,Rawalpindi,Abbottabad,5700,35000,in transit,CU-124
+rd-5652,2026-03-22,Lahore,Faisalabad,6600,49000,in transit,CU-140
+rd-5579,2026-03-24,Lahore,Sialkot,6500,46000,in transit,CU-105
+rd-5281,2026-03-14,Karachi,Sukkur,5900,40000,in transit,CU-110
+rd-5589,2026-03-27,Karachi,Sukkur,7300,60500,delivered,CU-124
+rd-5382,2026-03-25,Quetta,Karachi,6300,42500,delivered,CU-906
+rd-5384,2026-03-02,Lahore,Gujranwala,6200,49000,delivered,CU-123
+rd-5048,2026-03-05,Multan,Lahore,6800,43000,delivered,CU-112
+rd-5392,2026-03-15,Lahore,Sialkot,5600,38000,delivered,CU-135
+rd-5117,2026-03-18,Lahore,Sialkot,6000,47500,delivered,CU-139
+rd-5592,2026-03-21,Faisalabad,Multan,6100,41500,delivered,CU-902
+rd-5198,2026-03-06,Rawalpindi,Abbottabad,5600,39000,in transit,CU-129
+rd-5159,2026-03-18,Islamabad,Peshawar,7300,43000,delivered,CU-131
+rd-5276,2026-03-10,Lahore,Islamabad,7300,54000,delivered,CU-903
+rd-5575,2026-03-09,Lahore,Faisalabad,6300,49500,delivered,CU-107
+rd-5348,2026-03-06,Lahore,Sialkot,6700,40000,delivered,CU-107
+rd-5280,2026-03-29,Islamabad,Peshawar,6000,48000,delivered,CU-108
+rd-5079,2026-03-06,Karachi,Hyderabad,7300,48500,in transit,CU-901
+rd-5064,2026-03-11,Faisalabad,Multan,6300,45000,in transit,CU-103
+rd-5558,2026-03-30,Quetta,Karachi,6900,49000,delivered,CU-114
+rd-5387,2026-03-16,Karachi,Hyderabad,6800,57000,delivered,CU-122
+rd-5436,2026-03-07,Lahore,Sialkot,5800,45500,delivered,CU-905
+rd-5096,2026-03-23,Quetta,Karachi,6400,40500,delivered,CU-104
+rd-5644,2026-03-25,Karachi,Sukkur,6900,41500,delivered,CU-134
+rd-5089,2026-03-27,Lahore,Islamabad,6300,42000,delivered,CU-108
+rd-5214,2026-03-02,Islamabad,Peshawar,6000,43500,in transit,CU-126
+rd-5606,2026-03-26,Lahore,Islamabad,6900,48500,delayed,CU-112
+rd-5001,2026-03-25,Lahore,Islamabad,6300,51500,delivered ,CU-124
+rd-5080,2026-03-23,Lahore,Faisalabad,6500,54500,delivered,CU-111
+rd-5336,2026-03-17,Karachi,Sukkur,7300,53500, delivered,CU-101
+rd-5311,2026-03-13,Lahore,Faisalabad,6600,45000,delivered,CU-134
+rd-5582,2026-03-19,Lahore,Gujranwala,6700,55000,delivered,CU-118
+rd-5583,2026-03-18,Rawalpindi,Abbottabad,5500,41500,delivered,CU-130
+rd-5324,2026-03-28,Islamabad,Peshawar,7300,56000,delivered,CU-115
+rd-5208,2026-03-28,Lahore,Gujranwala,7100,44000,delivered,CU-112
+rd-5216,2026-03-15,Lahore,Sialkot,6300,41500,in transit,CU-136
+rd-5047,2026-03-04,Lahore,Faisalabad,7000,44000,delivered,CU-103
+rd-5638,2026-03-03,Rawalpindi,Abbottabad,5900,48000,delivered,CU-102
+rd-5024,2026-03-13,Karachi,Hyderabad,6000,45500,delivered,CU-118
+rd-5061,2026-03-21,Karachi,Sukkur,7400,61000,delivered,CU-106
+rd-5364,2026-03-08,Lahore,Islamabad,6500,51500,delivered,CU-140
+rd-5372,2026-03-29,Faisalabad,Multan,5600,37500,in transit,CU-127
+rd-5376,2026-03-30,Karachi,Hyderabad,5900,38000,delivered,CU-125
+rd-5378,2026-03-16,Multan,Lahore,6900,46500,in transit ,CU-101
+rd-5629,2026-03-11,Karachi,Hyderabad,5500,40500,delivered,CU-123
+rd-5366,2026-03-19,Lahore,Faisalabad,7400,44000,in transit,CU-136
+rd-5611,2026-03-20,Karachi,Sukkur,7400,43500,delivered,CU-107
+rd-5443,2026-03-20,Lahore,Faisalabad,6200,44000,delivered,CU-904
+rd-5456,2026-03-09,Islamabad,Peshawar,6600,47500,delivered,CU-110
+rd-5425,2026-03-15,Lahore,Sialkot,6600,41000,delivered,CU-139
+rd-5578,2026-03-08,Karachi,Sukkur,6000,37000,delayed,CU-136
+rd-5008,2026-03-20,Quetta,Karachi,7200,43000,delivered,CU-901
+rd-5198,2026-03-06,Rawalpindi,Abbottabad,5600,39000,in transit,CU-129
+rd-5290,2026-03-15,Multan,Lahore,6500,47000,delivered,CU-109
+rd-5323,2026-03-01,Multan,Lahore,6300,41500,delivered,CU-124
+rd-5532,2026-03-16,Multan,Lahore,6100,44000,delivered,CU-132
+rd-5131,2026-03-31,Lahore,Gujranwala,6900,41500,in transit,CU-126
+rd-5242,2026-03-27,Torkham Gate,Abbottabad,6600,44500,in transit,CU-115
+rd-5101,2026-03-06,Karachi,Hyderabad,5900,43000,delivered,CU-105
+rd-5169,2026-03-12,Multan,Lahore,5600,35000,delivered ,CU-115
+rd-5542,2026-03-16,Lahore,Faisalabad,7300,53500,in transit,CU-103
+rd-5253,2026-03-10,Rawalpindi,Abbottabad,6300,49500,delayed,CU-106
+rd-5335,2026-03-23,Islamabad,Peshawar,6200,50000,in transit,CU-113
+rd-5901,2026-03-10,Karachi,Sukkur,1.2e4,40500,delivered,CU-127
+rd-5909,2026-03-28,Lahore,Faisalabad,-5700,40500,delayed,CU-130
+rd-5619,2026-03-16,Chaman Border,Faisalabad,5700,34000,in transit,CU-905
+rd-5176,2026-03-07,Rawalpindi,Abbottabad,6700,43500,delivered,CU-106
+rd-5648,2026-03-08,Lahore,Gujranwala,7200,49500,delivered,CU-107
+rd-5563,2026-03-22,Karachi,Hyderabad,7000,55000,delayed,CU-136
+rd-5155,2026-03-11,Lahore,Islamabad,6000,49500,delivered,CU-135
+rd-5523,2026-03-13,Karachi,Sukkur,6000,38000,delivered,CU-130
+rd-5123,2026-03-27,Karachi,Hyderabad,5900,47500,delivered,CU-108
+rd-5160,2026-03-09,Karachi,Sukkur,7300,56000,delayed,CU-109
+rd-5628,2026-03-02,Lahore,Islamabad,7100,48000,in transit,CU-103
+rd-5477,2026-03-10,Multan,Lahore,7100,48500,delayed,CU-136
+rd-5043,2026-03-11,Lahore,Gujranwala,6500,46000,delayed,CU-128
+rd-5460,2026-03-24,Faisalabad,Multan,6800,43500,delivered,CU-132
+rd-5622,2026-03-23,Karachi,Sukkur,6800,52000,delivered,CU-110
+rd-5040,2026-03-23,Lahore,Sialkot,7300,58500,delivered,CU-123
+rd-5197,2026-03-19,Lahore,Gujranwala,6600,50500,in transit,CU-131
+rd-5226,2026-03-05,Karachi,Sukkur,6100,48500,delivered,CU-127
+rd-5627,2026-03-05,Rawalpindi,Abbottabad,5600,34500,delivered,CU-129
+rd-5077,2026-03-23,Rawalpindi,Abbottabad,7400,54500,in transit ,CU-140
+rd-5105,2026-03-14,Karachi,Sukkur,6700,44500,delivered,CU-128
+rd-5393 ,2026-03-25,Quetta,Karachi,6600,51000,delayed,CU-110
+rd-5169,2026-03-12,Multan,Lahore,5600,35000,delivered ,CU-115
+rd-5150,2026-03-24,Lahore,Sialkot,7400,46500,delivered,CU-121
+rd-5461,2026-03-09,Lahore,Gujranwala,7200,56000,delivered,CU-117
+rd-5569,2026-03-22,Quetta,Karachi,6400,47500,delivered,CU-138
+rd-5373,2026-03-20,Lahore,Gujranwala,6800,54500,delivered,CU-130
+rd-5632,2026-03-30,Islamabad,Peshawar,6200,51000,delivered,CU-118
+rd-5127,2026-03-31,Karachi,Sukkur,5600,44500,delayed,CU-136
+rd-5478,2026-03-04,Islamabad,Peshawar,6300,47000,delivered,CU-112
+rd-5530,2026-03-15,Karachi,Hyderabad,6100,38000,in transit,CU-131
+rd-5647,2026-03-19,Faisalabad,Multan,7100,54500,delayed,CU-109
+rd-5407,2026-03-23,Rawalpindi,Abbottabad,6000,46000,delivered,CU-117
+rd-5559,2026-03-29,Faisalabad,Multan,6300,43500,delivered,CU-108
+rd-5469,2026-03-04,Lahore,Sialkot,5500,42000,delayed,CU-126
+rd-5482,2026-03-04,Faisalabad,Multan,7200,57000,delayed,CU-112
+rd-5660,2026-03-17,Rawalpindi,Abbottabad,6900,41500,in transit,CU-128
+rd-5093,2026-03-26,Islamabad,Peshawar,6200,41000,delivered,CU-106
+rd-5507,2026-03-17,Lahore,Islamabad,6800,49000,delivered,CU-107
+rd-5250,2026-03-01,Quetta,Karachi,7200,58000,in transit,CU-110
+rd-5420,2026-03-11,Karachi,Hyderabad,6100,47500,delayed,CU-118
+rd-5085,2026-03-18,Quetta,Karachi,6600,47500,delivered,CU-903
+rd-5347,2026-03-05,Karachi,Sukkur,6500,51500,delivered,CU-120
+rd-5615,2026-03-25,Lahore,Gujranwala,6700,42000,delayed,CU-106
+rd-5350,2026-03-04,Faisalabad,Multan,6200,39500,delivered ,CU-122
+rd-5162,2026-03-14,Quetta,Karachi,5900,39000,delivered,CU-131
+rd-5011,2026-03-19,Rawalpindi,Abbottabad,6000,43000,delivered,CU-905
+rd-5452,2026-03-27,Lahore,Islamabad,6900,46500,delivered,CU-111
+rd-5391,2026-03-16,Karachi,Sukkur,6400,52000,delivered,CU-121
+rd-5618,2026-03-02,Karachi,Hyderabad,5500,38000,delivered,CU-124
+rd-5283,2026-03-22,Quetta,Karachi,6500,38500,delayed,CU-131
+rd-5572,2026-03-12,Rawalpindi,Abbottabad,6800,51500,delivered,CU-133
+rd-5480,2026-03-07,Chaman Border,Sialkot,5700,33500,delivered,CU-104
+rd-5368,2026-03-13,Islamabad,Peshawar,5900,43500,in transit,CU-130
+rd-5153,2026-03-31,Lahore,Gujranwala,5700,39500,in transit,CU-132
+rd-5163,2026-03-14,Faisalabad,Multan,5500,40500,delivered,CU-119
+rd-5548,2026-03-09,Faisalabad,Multan,7200,57000,delivered,CU-125
+rd-5130,2026-03-20,Faisalabad,Multan,7200,50000,delivered,CU-135
+rd-5066,2026-03-17,Rawalpindi,Abbottabad,6200,40500,delivered,CU-118
+rd-5410,2026-03-06,Lahore,Faisalabad,6900,42500,delayed,CU-134
+rd-5069,2026-03-14,Lahore,Faisalabad,7100,54000,delivered,CU-117
+rd-5418,2026-03-01,Rawalpindi,Abbottabad,7100,53000,delivered,CU-137
+rd-5355,2026-03-07,Lahore,Faisalabad,7300,46000,delivered,CU-122
+rd-5412,2026-03-23,Islamabad,Peshawar,6600,42500,delivered,CU-113
+rd-5474,2026-03-05,Lahore,Islamabad,6000,44000,delivered,CU-101
+rd-5033,2026-03-02,Rawalpindi,Abbottabad,7100,50500,delivered,CU-128
+rd-5180,2026-03-06,Multan,Lahore,6400,39500,delivered,CU-118
+rd-5194,2026-03-09,Lahore,Sialkot,7100,43500,delivered,CU-105
+rd-5103,2026-03-22,Multan,Lahore,6400,48500,in transit,CU-132
+rd-5599,2026-03-23,Islamabad,Peshawar,5900,46500,delivered,CU-901
+rd-5029,2026-03-22,Lahore,Sialkot,5800,40000,in transit,CU-133
+rd-5128,2026-03-10,Lahore,Sialkot,6700,46500,in transit,CU-136
+rd-5588,2026-03-21,Islamabad,Peshawar,5900,45500,delayed,CU-129
+rd-5113,2026-03-19,Lahore,Faisalabad,6700,49500,delivered,CU-119
+rd-5620,2026-03-23,Multan,Lahore,7400,54000,in transit,CU-108
+rd-5032,2026-03-02,Lahore,Gujranwala,7300,52500,delivered,CU-112
+rd-5167,2026-03-25,Karachi,Hyderabad,7000,53000,in transit,CU-122
+rd-5211,2026-03-11,Karachi,Hyderabad,7100,58500,in transit,CU-904
+rd-5426,2026-03-24,Quetta,Karachi,6100,45000,delivered,CU-904
+rd-5488,2026-03-26,Multan,Lahore,5500,40000,delivered,CU-139
+rd-5576,2026-03-24,Multan,Lahore,6500,46000,delivered,CU-125
+rd-5306,2026-03-04,Faisalabad,Multan,6200,50000,in transit,CU-135
+rd-5590,2026-03-18,Lahore,Sialkot,6700,40000,delivered,CU-128
+rd-5234,2026-03-28,Lahore,Faisalabad,7000,43000,delivered,CU-139
+rd-5486,2026-03-03,Karachi,Hyderabad,5600,35000,delivered,CU-134
+rd-5179,2026-03-01,Lahore,Faisalabad,7000,55000,delayed,CU-138
+rd-5464,2026-03-01,Karachi,Hyderabad,6800,46500,delivered,CU-104
+rd-5213,2026-03-12,Multan,Lahore,7300,55000,delivered,CU-132
+rd-5013,2026-03-17,Karachi,Hyderabad,6600,50500,delayed,CU-128
+rd-5022,2026-03-20,Rawalpindi,Abbottabad,6700,42500,in transit,CU-140
+rd-5054,2026-03-07,Lahore,Gujranwala,5900,37000,delivered,CU-131
+rd-5562,2026-03-10,Lahore,Islamabad,7200,55500,delivered,CU-107
+rd-5224,2026-03-15,Multan,Lahore,5500,-38000,delivered,CU-101
+rd-5655,2026-03-21,Karachi,Sukkur,7000,50000,delivered,CU-127
+rd-5175,2026-03-30,Lahore,Gujranwala,5700,40500,delivered,CU-126
+rd-5006,2026-03-12,Karachi,Sukkur,6100,50500,delivered,CU-902
+rd-5537,2026-03-24,Faisalabad,Multan,7100,55000,delivered,CU-112
+rd-5570,2026-03-24,Faisalabad,Multan,7300,52000,delivered,CU-111
+rd-5160,2026-03-09,Karachi,Sukkur,7300,56000,delayed,CU-109
+rd-5192,2026-03-04,Islamabad,Peshawar,7400,50000,delivered,CU-130
+rd-5468,2026-03-03,Karachi,Sukkur,7100,57000, delayed,CU-129
+rd-5657,2026-03-09,Quetta,Karachi,5900,45500,delivered,CU-905
+rd-5018,2026-03-09,Lahore,Sialkot,7200,46000,delivered,CU-139
+rd-5536,2026-03-03,Quetta,Karachi,6700,42000,delivered,CU-120
+rd-5565,2026-03-14,Multan,Lahore,6800,49500,delivered,CU-122
+rd-5115,2026-03-10,Islamabad,Peshawar,6800,56500,delivered,CU-114
+rd-5409,2026-03-29,Karachi,Hyderabad,6500,40500,in transit,CU-102
+rd-5422,2026-03-31,Multan,Lahore,6000,39500,in transit,CU-109
+rd-5454,2026-03-25,Lahore,Faisalabad,6400,47500,delivered,CU-130
+rd-5585,2026-03-05,Karachi,Hyderabad,6900,53000,delivered,CU-130
+rd-5571,2026-03-16,Lahore,Gujranwala,6800,55500,delivered,CU-124
+rd-5082,2026-03-24,Islamabad,Peshawar,6900,44500,delivered,CU-136
+rd-5424,2026-03-09,Karachi,Sukkur,7200,56500,delivered,CU-901
+rd-5181,2026-03-19,Islamabad,Peshawar,6900,57500,delivered,CU-902
+rd-5411,2026-03-24,Multan,Lahore,6000,49500,delivered,CU-902
+rd-5305,2026-03-18,Quetta,Karachi,6600,43500,in transit,CU-904
+rd-5386,2026-03-18,Lahore,Islamabad,6600,45500,delivered,CU-123
+rd-5088,2026-03-27,Rawalpindi,Abbottabad,6200,50000,delivered,CU-125
+rd-5431,2026-03-16,Karachi,Hyderabad,5800,46000,delivered,CU-901
+rd-5616,2026-03-17,Rawalpindi,Abbottabad,7400,62000,delivered,CU-135
+rd-5493,2026-03-12,Faisalabad,Multan,6800,55000,delivered ,CU-904
+rd-5539,2026-03-06,Rawalpindi,Abbottabad,5900,36000,delayed,CU-113
+rd-5525,2026-03-31,Quetta,Karachi,7300,42500,delivered,CU-109
+rd-5534,2026-03-24,Karachi,Sukkur,6200,39500,delivered,CU-109
+rd-5523 ,2026-03-13,Karachi,Sukkur,6000,38000,delivered,CU-130
+rd-5545,2026-03-18,Karachi,Sukkur,7400,51500,delayed,CU-126
+rd-5402,2026-03-11,Karachi,Sukkur,5500,39000,delivered,CU-906
+rd-5483,2026-03-28,Lahore,Gujranwala,7000,53000,delayed,CU-123
+rd-5065,2026-03-09,Lahore,Gujranwala,7000,57500,delivered,CU-106
+rd-5225,2026-03-30,Islamabad,Peshawar,7400,54500,delivered,CU-128
+rd-5277,2026-03-27,Karachi,Hyderabad,6200,49000,delivered,CU-905
+rd-5020,2026-03-21,Faisalabad,Multan,5500,35000,in transit,CU-115
+rd-5527,2026-03-22,Lahore,Gujranwala,5700,39000,delivered,CU-133
+rd-5633,2026-03-25,Karachi,Sukkur,6200,36500,delivered,CU-906
+rd-5211,2026-03-11,Karachi,Hyderabad,7100,58500,in transit,CU-904
+rd-5473,2026-03-27,Rawalpindi,Abbottabad,7100,55000,in transit,CU-101
+rd-5466,2026-03-09,Multan,Lahore,6500,51500,delivered,CU-140
+rd-5533,2026-03-23,Islamabad,Peshawar,6200,50000,in transit,CU-115
+rd-5255,2026-03-16,Karachi,Hyderabad,7400,54500,delivered,CU-106
+rd-5428,2026-03-28,Lahore,Gujranwala,7100,51500,delivered,CU-140
+rd-5146,2026-03-09,Lahore,Faisalabad,6700,44000,delayed,CU-106
+rd-5122,2026-03-01,Lahore,Islamabad,7400,46500,in transit,CU-902
+rd-5202,2026-03-28,Multan,Lahore,6700,40000,delivered,CU-902
+rd-5594,2026-03-04,Rawalpindi,Abbottabad,6700,45000,in transit ,CU-102
+rd-5504,2026-03-06,Faisalabad,Multan,7300,47500,delivered,CU-115
+rd-5361,2026-03-11,Faisalabad,Multan,6300,45500,delivered,CU-139
+rd-5365,2026-03-14,Karachi,Hyderabad,5500,42500,delivered,CU-103
+rd-5166,2026-03-24,Lahore,Islamabad,6500,53000,delayed,CU-124
+rd-5241,2026-03-16,Lahore,Gujranwala,6900,47500,delivered ,CU-901
+rd-5288,2026-03-10,Karachi,Hyderabad,5600,40500,delivered,CU-123
+rd-5256,2026-03-23,Lahore,Faisalabad,7000,49000,held at customs,CU-904
+rd-5396,2026-03-13,Rawalpindi,Abbottabad,5600,45500,in transit,CU-123
+rd-5094,2026-03-26,Karachi,Sukkur,6600,52500,delivered,CU-108
+rd-5341,2026-03-02,Rawalpindi,Abbottabad,6300,43500,delivered,CU-136
+rd-5184,2026-03-21,Quetta,Karachi,6900,52500,in transit,CU-101
+rd-5219,2026-03-13,Lahore,Gujranwala,6300,41500,delivered,CU-133
+rd-5295,2026-03-30,Faisalabad,Multan,5900,46000,delivered,CU-128
+rd-5623,2026-03-13,Lahore,Sialkot,6300,46500,delivered,CU-901
+rd-5038,2026-03-02,Islamabad,Peshawar,6700,53000, delayed,CU-129
+rd-5626,2026-03-23,Lahore,Gujranwala,5600,34500,held at customs,CU-128
+rd-5041,2026-03-27,Quetta,Karachi,5900,43000,delivered,CU-905
+rd-5111,2026-03-01,Lahore,Islamabad,5500,34500,in transit,CU-133
+rd-5091,2026-03-14,Lahore,Faisalabad,6300,47000,delivered,CU-140
+rd-5389,2026-03-18,Multan,Lahore,6000,46500,delivered,CU-108
+rd-5337,2026-03-15,Lahore,Sialkot,6300,48000,delivered,CU-136
+rd-5490,2026-03-06,Karachi,Sukkur,6600,45500,delivered,CU-136
+rd-5157,2026-03-15,Lahore,Faisalabad,5600,34500,delivered,CU-104
+rd-5118,2026-03-15,Quetta,Karachi,5600,40000,in transit,CU-128
+rd-5427,2026-03-26,Faisalabad,Multan,5700,47000,delivered,CU-133
+rd-5645,2026-03-26,Lahore,Sialkot,7100,59000,in transit,CU-903
+rd-5168,2026-03-04,Lahore,Faisalabad,6900,48500,delivered,CU-109
+rd-5328,2026-03-21,Faisalabad,Multan,6500,54500,delivered,CU-107
+rd-5349,2026-03-03,Quetta,Karachi,5800,43500,delivered,CU-112
+rd-5612,2026-03-27,Lahore,Sialkot,7300,49000,delivered,CU-130
+rd-5051,2026-03-31,Lahore,Sialkot,7200,56000,delivered,CU-120
+rd-5541,2026-03-17,Karachi,Hyderabad,5500,37500,delivered,CU-110
+rd-5269,2026-03-08,Islamabad,Peshawar,6000,49500,delivered,CU-129
+rd-5560,2026-03-04,Lahore,Gujranwala,6300,49000,delivered,CU-136
+rd-5429,2026-03-08,Rawalpindi,Abbottabad,5800,38000,delivered,CU-113
+rd-5441,2026-03-17,Lahore,Islamabad,5600,35000,delivered,CU-903
+rd-5403,2026-03-25,Lahore,Sialkot,5800,34000,delivered,CU-105
+rd-5189,2026-03-31,Karachi,Hyderabad,6300,39000,delivered,CU-901
+rd-5553,2026-03-24,Lahore,Faisalabad,5800,38500,delivered,CU-903
+rd-5263,2026-03-03,Lahore,Gujranwala,5900,48500,delivered,CU-131
+rd-5475,2026-03-14,Karachi,Hyderabad,6600,40000,in transit,CU-134
+rd-5651,2026-03-02,Karachi,Hyderabad,5900,43500,delivered,CU-138
+rd-5531,2026-03-19,Lahore,Faisalabad,6800,54000,delayed,CU-110
+rd-5108,2026-03-26,Faisalabad,Multan,5600,44500,delivered,CU-139
+rd-5359,2026-03-21,Lahore,Sialkot,6700,40500,delivered,CU-101
+rd-5331,2026-03-25,Lahore,Islamabad,5800,34000,delivered,CU-902
+rd-5499,2026-03-23,Multan,Lahore,6500,51500,in transit,CU-101
+rd-5291,2026-03-19,Islamabad,Peshawar,6100,37000,delivered,CU-137
+rd-5389,2026-03-18,Multan,Lahore,6000,46500,delivered,CU-108
+rd-5369,2026-03-13,Karachi,Sukkur,7200,52000,in transit,CU-130
+rd-5220,2026-03-25,Rawalpindi,Abbottabad,7200,44500,delivered,CU-119
+rd-5299,2026-03-05,Karachi,Hyderabad,6900,51000,delivered,CU-133
+rd-5083,2026-03-04,Karachi,Sukkur,7400,46000,delivered,CU-139
+rd-5329,2026-03-15,Lahore,Gujranwala,6300,40500,in transit,CU-129
+rd-5059,2026-03-08,Multan,Lahore,6000,42000,delayed,CU-906
+rd-5413,2026-03-31,Karachi,Sukkur,5600,46000,delivered,CU-123
+rd-5470,2026-03-05,Quetta,Karachi,7000,45000,delivered,CU-110
+rd-5547,2026-03-23,Quetta,Karachi,7100,52000,delivered,CU-126
+rd-5158,2026-03-03,Multan,Lahore,7400,50500,delivered,CU-104
+rd-5455,2026-03-08,Multan,Lahore,6100,51000,delivered ,CU-119
+rd-5170,2026-03-18,Islamabad,Peshawar,6900,50000,delivered,CU-901
+rd-5543,2026-03-21,Multan,Lahore,6600,48000,delivered,CU-125
+rd-5573,2026-03-07,Lahore,Islamabad,6500,44000,delayed,CU-905
+rd-5293,2026-03-21,Lahore,Sialkot,7100,56500, delivered,CU-123
+rd-5565,2026-03-14,Multan,Lahore,6800,49500,delivered,CU-122
+rd-5503,2026-03-29,Quetta,Karachi,6000,49000,delivered,CU-139
+rd-5408,2026-03-24,Lahore,Islamabad,6700,40500,delivered,CU-902
+rd-5014,2026-03-02,Lahore,Faisalabad,6400,41000,delivered,CU-901
+rd-5287,2026-03-12,Lahore,Islamabad,6600,49500,delivered,CU-136
+rd-5463,2026-03-17,Lahore,Islamabad,5600,47000,delayed,CU-131
+rd-5453,2026-03-19,Karachi,Hyderabad,7100,48000,delivered,CU-132
+rd-5001,2026-03-25,Lahore,Islamabad,6300,51500,delivered ,CU-124
+rd-5252,2026-03-29,Lahore,Gujranwala,5600,35000,delivered,CU-113
+rd-5005,2026-03-06,Islamabad,Peshawar,6100,36500,delivered,CU-906
+rd-5126,2026-03-05,Islamabad,Peshawar,6200,40500,delivered,CU-126
+rd-5212,2026-03-06,Lahore,Faisalabad,7100,44500,in transit,CU-138
+rd-5229,2026-03-07,Faisalabad,Multan,7400,50000,delivered,CU-903
+rd-5563,2026-03-22,Karachi,Hyderabad,7000,55000,delayed,CU-136
+rd-5340,2026-03-14,Lahore,Gujranwala,6300,42000,delivered,CU-112
+rd-5205,2026-03-21,Lahore,Sialkot,5700,35500,in transit,CU-903
+,2026-03-15,Islamabad,Peshawar,5600,40000,delivered,CU-138
+rd-5521,2026-03-05,Multan,Lahore,5500,41500,in transit,CU-103
+rd-5360,2026-03-01,Quetta,Karachi,7000,54500,delivered,CU-125
+rd-5496,2026-03-21,Lahore,Islamabad,6400,37500,delivered,CU-120
+rd-5210,2026-03-22,Lahore,Islamabad,7000,50500,delivered,CU-117
+rd-5284,2026-03-15,Faisalabad,Multan,5700,47500,delivered,CU-110
+rd-5258,2026-03-19,Islamabad,Peshawar,5800,44500,delivered,CU-131
+rd-5023,2026-03-30,Lahore,Islamabad,5800,47500,in transit,CU-108
+rd-5076,2026-03-15,Lahore,Gujranwala,5800,42500,delivered,CU-114
+rd-5313,2026-03-29,Islamabad,Peshawar,6500,43000,delivered,CU-107
+rd-5454,2026-03-25,Lahore,Faisalabad,6400,47500,delivered,CU-130
+rd-5646,2026-03-27,Quetta,Karachi,6400,48500,delivered,CU-139
+rd-5371,2026-03-12,Quetta,Karachi,6900,49000,delivered,CU-131
+rd-5183,2026-03-27,Lahore,Sialkot,7000,42500,delayed,CU-115
+rd-5515,2026-03-15,Faisalabad,Multan,5900,44500,delivered,CU-137
+rd-5267,2026-03-26,Lahore,Faisalabad,7300,43000,delivered,CU-140
+rd-5173,2026-03-06,Quetta,Karachi,6000,44000,delayed,CU-108
+rd-5433,2026-03-03,Multan,Lahore,5700,36500,delivered,CU-125
+rd-5268,2026-03-25,Multan,Lahore,7400,57000,delivered,CU-107
+rd-5145,2026-03-06,Karachi,Hyderabad,5600,39500,delivered,CU-127
+rd-5902,2026-03-17,Lahore,Sialkot,n/a,39000,in transit,CU-111
+rd-5463,2026-03-17,Lahore,Islamabad,5600,47000,delayed,CU-131
+rd-5187,2026-03-09,Rawalpindi,Abbottabad,6700,50000,in transit,CU-132
+rd-5500,2026-03-31,Islamabad,Peshawar,6100,45500,delivered,CU-136
+rd-5278,2026-03-28,Taftan Crossing,Faisalabad,6500,41500,in transit,CU-903
+rd-5003,2026-03-10,Lahore,Faisalabad,7300,56500,delivered,CU-124
+rd-5398,2026-03-15,Karachi,Hyderabad,5700,44500, delivered,CU-904
+rd-5099,2026-03-26,Rawalpindi,Abbottabad,7200,48500,delivered,CU-132
+rd-5587,2026-03-03,Multan,Lahore,6600,53500,delivered,CU-102
+rd-5557,2026-03-14,Lahore,Sialkot,6700,51000,delivered,CU-112
+rd-5129,2026-03-20,Quetta,Karachi,6400,48500,delivered,CU-119
+rd-5166,2026-03-24,Lahore,Islamabad,6500,53000,delayed,CU-124
+rd-5248,2026-03-09,Karachi,Sukkur,6700,54500,delivered,CU-128
+rd-5656,2026-03-31,Lahore,Sialkot,6700,44500,delayed,CU-110
+rd-5510,2026-03-28,Multan,Lahore,6800,50000,in transit,CU-121
+rd-5658,2026-03-20,Faisalabad,Multan,7400,52500,delayed,CU-132
+rd-5395,2026-03-17,Lahore,Gujranwala,6800,55500,delivered,CU-125
+rd-5060,2026-03-28,Islamabad,Peshawar,5700,35000,delivered,CU-113
+rd-5124,2026-03-20,Lahore,Faisalabad,6300,40500,in transit,CU-139
+rd-5516,2026-03-01,Lahore,Gujranwala,7300,51000,delivered,CU-105
+rd-5388,2026-03-10,Lahore,Faisalabad,6900,46000,delivered,CU-139
+rd-5302,2026-03-13,Islamabad,Peshawar,5700,42500,delivered,CU-902
+rd-5321,2026-03-20,Karachi,Hyderabad,6100,45000,in transit,CU-122
+rd-5049,2026-03-24,Islamabad,Peshawar,6400,52000,delayed,CU-108
+rd-5465,2026-03-18,Lahore,Faisalabad,6500,54000,delivered,CU-138
+rd-5414,2026-03-25,Lahore,Sialkot,5700,41500,delivered,CU-117
+rd-5203,2026-03-10,Islamabad,Peshawar,7100,56500,delivered,CU-118
+rd-5106,2026-03-28,Lahore,Sialkot,6600,42500,delivered,CU-901
+rd-5417,2026-03-30,Lahore,Gujranwala,6500,52500,delivered,CU-119
+rd-5136,2026-03-15,Multan,Lahore,6700,49500,delivered ,CU-121
+rd-5319,2026-03-05,Rawalpindi,Abbottabad,6000,40500,delivered,CU-113
+rd-5434,2026-03-11,Islamabad,Peshawar,6700,52500,delivered,CU-137
+rd-5227,2026-03-12,Lahore,Sialkot,6000,35500,in transit,CU-906
+rd-5566,2026-03-09,Islamabad,Peshawar,6200,44000,delivered,CU-106
+rd-5476,2026-03-26,Lahore,Faisalabad,6200,48500,delivered,CU-904
+rd-5081,2026-03-13,Multan,Lahore,7000,52000,in transit,CU-132
+rd-5501,2026-03-04,Karachi,Sukkur,5700,47500,delivered,CU-140
+rd-5489,2026-03-26,Islamabad,Peshawar,6500,45000,delivered,CU-117
+rd-5069,2026-03-14,Lahore,Faisalabad,7100,54000,delivered,CU-117
+rd-5447,2026-03-22,Lahore,Sialkot,5800,38000,delivered,CU-905
+rd-5309,2026-03-19,Lahore,Islamabad,6100,39000,delivered,CU-127
+rd-5451,2026-03-21,Rawalpindi,Abbottabad,7200,52500,delivered,CU-102
+rd-5239,2026-03-24,Quetta,Karachi,6200,45500,delivered,CU-115
+rd-5432,2026-03-31,Lahore,Faisalabad,7100,54000,delivered,CU-120
+rd-5174,2026-03-27,Faisalabad,Multan,5900,39000,delivered,CU-135
+rd-5354,2026-03-16,Karachi,Hyderabad,6600,39000,delivered ,CU-119
+rd-5026,2026-03-03,Multan,Lahore,5700,37000,delivered,CU-117
+rd-5659,2026-03-05,Lahore,Gujranwala,7300,47000,delivered,CU-118
+rd-5342,2026-03-06,Lahore,Islamabad,6400,48500,delivered,CU-902
+rd-5107,2026-03-02,Quetta,Karachi,7200,46500,delivered,CU-130
+rd-5905,2026-03-27,Lahore,Gujranwala,see note,51000,delayed,CU-120
+rd-5322,2026-03-23,Lahore,Faisalabad,7300,46000,delivered,CU-902
+rd-5112,2026-03-27,Karachi,Hyderabad,6300,43000,in transit,CU-112
+rd-5614,2026-03-19,Faisalabad,Multan,6800,46500,delivered,CU-106
+rd-5404,2026-03-23,Quetta,Karachi,7000,55000,delayed,CU-901
+rd-5218,2026-03-24,Faisalabad,Multan,5800,41500,delivered,CU-119
+rd-5007,2026-03-18,Lahore,Sialkot,6000,50000,delivered,CU-130
+rd-5119,2026-03-29,Faisalabad,Multan,5800,38500,delivered,CU-102
+rd-5325,2026-03-27,Karachi,Sukkur,6800,40500,delivered,CU-130
+rd-5262,2026-03-17,Faisalabad,Multan,6000,40000,delivered,CU-111
+rd-5178,2026-03-07,Karachi,Hyderabad,7200,46000,delivered,CU-105
+rd-5491,2026-03-09,Lahore,Sialkot,7200,47500,in transit,CU-126
+rd-5308,2026-03-20,Rawalpindi,Abbottabad,5500,38000,delivered,CU-135
+rd-5467,2026-03-24,Islamabad,Peshawar,6700,56000,delayed,CU-135
+rd-5075,2026-03-02,Faisalabad,Multan,6700,45500,delivered,CU-130
+rd-5270,2026-03-29,Karachi,Sukkur,7400,43500,delivered,CU-104
+rd-5251,2026-03-30,Faisalabad,Multan,6500,42000,delayed,CU-104
+rd-5439,2026-03-01,Lahore,Gujranwala,5900,48500,delivered,CU-112
+rd-5260,2026-03-08,Lahore,Sialkot,6300,37500,delivered,CU-116
+rd-5427,2026-03-26,Faisalabad,Multan,5700,47000,delivered,CU-133
+rd-5332,2026-03-29,Karachi,Hyderabad,6500,38500,delivered,CU-102
+rd-5509,2026-03-28,Lahore,Faisalabad,6300,43000, delivered,CU-903
+rd-5274,2026-03-26,Lahore,Gujranwala,6000,44500,delayed,CU-118
+rd-5630,2026-03-15,Lahore,Faisalabad,5600,41000,delivered,CU-101
+rd-5217,2026-03-03,Quetta,Karachi,6900,52000,delivered,CU-135
+rd-5654,2026-03-28,Islamabad,Peshawar,5700,36500,delivered,CU-131
+rd-5053,2026-03-26,Faisalabad,Multan,5700,46500,delayed,CU-109
+rd-5245,2026-03-07,Lahore,Faisalabad,5500,38500,in transit,CU-901
+rd-5254,2026-03-27,Lahore,Islamabad,5900,45500,delivered,CU-136
+rd-5377,2026-03-18,Lahore,Faisalabad,6300,41500,in transit,CU-117
+rd-5121,2026-03-31,Rawalpindi,Abbottabad,7300,54000,delivered,CU-135
+rd-5087,2026-03-09,Lahore,Gujranwala,6600,41500,delivered,CU-127
+rd-5442,2026-03-28,Karachi,Hyderabad,5600,35000,delivered,CU-117
+rd-5609,2026-03-31,Multan,Lahore,5700,43500,in transit,CU-125
+rd-5352,2026-03-14,Rawalpindi,Abbottabad,6400,53500,delivered,CU-119
+rd-5044,2026-03-12,Rawalpindi,Abbottabad,5600,45000,delayed,CU-901
+rd-5057,2026-03-25,Karachi,Hyderabad,6400,41000,delivered,CU-135
+rd-5199,2026-03-27,Lahore,Islamabad,5500,39500,delivered,CU-906
+rd-5423,2026-03-12,Islamabad,Peshawar,6200,41000,in transit,CU-116
+rd-5601,2026-03-17,Lahore,Sialkot,6900,50000,in transit,CU-133
+rd-5109,2026-03-09,Lahore,Gujranwala,6300,47500,delivered,CU-118
+rd-5608,2026-03-10,Lahore,Faisalabad,7000,43000,delivered,CU-128
+rd-5016,2026-03-20,Islamabad,Peshawar,6100,37500,delivered,CU-123
+rd-5154,2026-03-12,Rawalpindi,Abbottabad,7300,52000,delivered,CU-903
+rd-5561,2026-03-11,Rawalpindi,Abbottabad,6300,42500,delivered,CU-105
+rd-5137,2026-03-19,Islamabad,Peshawar,5800,35000,delayed,CU-135
+rd-5394,2026-03-31,Faisalabad,Multan,5500,34500,delivered,CU-130
+rd-5445,2026-03-03,Islamabad,Peshawar,5500,32500,in transit,CU-130
+rd-5643,2026-03-20,Islamabad,Peshawar,5500,33500,in transit,CU-904
+rd-5279,2026-03-08,Multan,Lahore,5500,33500,delivered,CU-102
+rd-5182,2026-03-28,Karachi,Sukkur,6400,40500,delivered,CU-124
+rd-5316,2026-03-04,Quetta,Karachi,6400,51000,delivered,CU-121
+rd-5430,2026-03-22,Lahore,Islamabad,6700,53500,delivered,CU-126
+rd-5046,2026-03-06,Karachi,Hyderabad,6600,49500,delayed,CU-104
+rd-5221,2026-03-10,Lahore,Islamabad,7300,42500,delivered,CU-138
+rd-5036,2026-03-11,Lahore,Faisalabad,6900,57500,delivered,CU-123
+rd-5161,2026-03-16,Lahore,Sialkot,7000,55000,in transit,CU-121
+rd-5637,2026-03-21,Lahore,Gujranwala,6100,49500,in transit,CU-119
+rd-5058,2026-03-05,Lahore,Faisalabad,6000,47500,delivered,CU-140
+rd-5292,2026-03-17,Karachi,Sukkur,5500,32000,delayed ,CU-128
+rd-5116,2026-03-09,Karachi,Sukkur,5700,38500,delivered,CU-110
+rd-5164,2026-03-29,Lahore,Gujranwala,6600,45500,in transit,CU-902
+rd-5021,2026-03-17,Lahore,Gujranwala,6500,48000,delivered,CU-104
+rd-5448,2026-03-03,Quetta,Karachi,5500,44500,delayed,CU-109
+rd-5008 ,2026-03-20,Quetta,Karachi,7200,43000,delivered,CU-901
+rd-5090,2026-03-19,Karachi,Hyderabad,5800,40000,delayed,CU-109
+rd-5528,2026-03-19,Rawalpindi,Abbottabad,5600,38500,in transit,CU-104
+rd-5301,2026-03-21,Multan,Lahore,7300,50000,delivered,CU-122
+rd-5634,2026-03-08,Lahore,Sialkot,7400,55000,in transit,CU-906
+rd-5206,2026-03-25,Quetta,Karachi,6700,41000,in transit,CU-124
+rd-5314,2026-03-10,Karachi,Sukkur,6000,35000,delivered,CU-904
+rd-5312,2026-03-30,Multan,Lahore,6100,42000,delivered,CU-906
+rd-5233,2026-03-01,Karachi,Hyderabad,6600,43000,in transit,CU-101
+rd-5577,2026-03-09,Islamabad,Peshawar,6600,49500,delivered,CU-125
+rd-5437,2026-03-27,Quetta,Karachi,6900,48000,in transit,CU-139
+rd-5078,2026-03-18,Lahore,Islamabad,6400,52000,in transit,CU-135
+rd-5462,2026-03-12,Rawalpindi,Abbottabad,5600,33000,delivered,CU-135
+rd-5265,2026-03-04,Lahore,Islamabad,7200,48000,delivered ,CU-138
+rd-5068,2026-03-06,Karachi,Hyderabad,6300,50000,delivered,CU-107
+rd-5104,2026-03-07,Islamabad,Peshawar,5900,44500,held at customs,CU-124
+rd-5142,2026-03-13,Lahore,Gujranwala,7100,49000,delayed,CU-133
+rd-5538,2026-03-11,Lahore,Gujranwala,6000,44000,in transit,CU-905
+rd-5025,2026-03-21,Lahore,Faisalabad,7100,50500,delivered ,CU-117
+rd-5039,2026-03-06,Karachi,Sukkur,6000,35500,in transit,CU-904
+rd-5356,2026-03-31,Multan,Lahore,5900,39000,delivered,CU-902
+rd-5188,2026-03-06,Lahore,Islamabad,7300,54500, delivered,CU-118
+rd-5640,2026-03-18,Karachi,Hyderabad,7200,49000,delivered,CU-101
+rd-5613,2026-03-26,Quetta,Karachi,5600,41000,in transit,CU-128
+rd-5487,2026-03-25,Lahore,Faisalabad,5900,42500,delayed,CU-122
+rd-5228,2026-03-12,Quetta,Karachi,6800,50500,delivered,CU-102
+rd-5031,2026-03-11,Faisalabad,Multan,5700,46000,in transit,CU-138
+rd-5904,2026-03-16,Faisalabad,Multan,approx 7000,42500,delayed,CU-103
+rd-5605,2026-03-01,Rawalpindi,Abbottabad,7300,46500,in transit,CU-906
+rd-5438,2026-03-13,Faisalabad,Multan,7200,55500,delivered,CU-114
+rd-5551,2026-03-13,Lahore,Islamabad,5700,41000,delivered,CU-110
+rd-5610,2026-03-05,Islamabad,Peshawar,7300,48500,delivered,CU-117
+rd-5641,2026-03-10,Lahore,Faisalabad,6300,46000,delayed,CU-112
+rd-5607,2026-03-02,Karachi,Hyderabad,6300,44000,delivered,CU-140
+,2026-03-25,Karachi,Sukkur,6200,44000,delivered,CU-112
+rd-5264,2026-03-10,Rawalpindi,Abbottabad,6500,53500,delivered,CU-103
+rd-5275,2026-03-16,Rawalpindi,Abbottabad,5600,36500,delivered,CU-135
+rd-5055,2026-03-01,Rawalpindi,Abbottabad,5900,45500,delivered,CU-131
+,,,,,,,
+TOTAL,,,,4487200,32259500,,

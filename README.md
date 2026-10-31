@@ -18,6 +18,7 @@ Every week is a self-contained folder: a short README, the data, and one `TASKS.
 | **3** | Fact & Dimension Tables | L5 Facts, dimensions and the grain · L6 Surrogate keys and the first star schema | [`week3/`](week3/) |
 | **4** | Dimensional Modeling | L7 Star schema against snowflake schema · L8 Relationships in Power BI | [`week4/`](week4/) |
 | **5** | The ETL Process | L9 Extract, transform, load and what each stage guarantees · L10 Power Query, live | [`week5/`](week5/) |
+| **6** | Query Optimization & Data Quality | L11 Indexing, and what a query plan is telling you · L12 Data quality, deduplication and error routing | [`week6/`](week6/) |
 
 More weeks will be added here as the course runs.
 
@@ -43,6 +44,9 @@ open week4/assignments/data/PakFreight_W4_SchemaLab_STUDENT.xlsx
 
 # Week 5 — data is already committed; open the workbook
 open week5/assignments/data/PakFreight_W5_ETLLab_STUDENT.xlsx
+
+# Week 6 — data is already committed; open the workbook
+open week6/assignments/data/PakFreight_W6_QualityLab_STUDENT.xlsx
 ```
 
 **Requirements:** Python 3.9+, and:
@@ -51,7 +55,7 @@ open week5/assignments/data/PakFreight_W5_ETLLab_STUDENT.xlsx
 pip install pandas openpyxl
 ```
 
-**Power BI Desktop** is needed for the hands-on tasks (Week 1 Task 5, Week 2 Task 4, Week 3 lab, Week 4 lab, Week 5 lab). It is free, and Windows-only. On macOS or Linux use Power BI Service at `app.powerbi.com`, or a lab machine — just say which you used in your submission. Week 5's lab is Power Query, which also ships inside Excel (**Data → Get Data**) if that is easier.
+**Power BI Desktop** is needed for the hands-on tasks (Week 1 Task 5, Week 2 Task 4, Week 3 lab, Week 4 lab, Week 5 lab, Week 6 lab). It is free, and Windows-only. On macOS or Linux use Power BI Service at `app.powerbi.com`, or a lab machine — just say which you used in your submission. Week 5's lab is Power Query, which also ships inside Excel (**Data → Get Data**) if that is easier. The same is true of Week 6's, and both weeks also accept a pandas pipeline for full marks.
 
 > `.pbix` files are gitignored. Submit yours through the LMS, not by committing it here.
 
@@ -60,7 +64,8 @@ pip install pandas openpyxl
 ## Course learning outcomes
 
 **CLO1 — Identify how a data warehouse supports organizational decision-making.** (Weeks 1–2)
-**CLO2 — Design dimensional models for analytical workloads.** (Week 3 onwards)
+**CLO2 — Design dimensional models for analytical workloads.** (Weeks 3–4)
+**CLO3 — Build and operate the pipelines that load and maintain a warehouse.** (Week 5 onwards)
 
 Each lecture carries a 3C character strand:
 
@@ -74,6 +79,10 @@ Each lecture carries a 3C character strand:
 | L6 | Implement a functional relational design linking fact metrics with descriptive dimension tables in Power BI | Courage |
 | L7 | Evaluate the normalization differences between Star and Snowflake schemas on query performance and maintenance cost | Courage |
 | L8 | Construct multi-table relational networks with correct cardinality and cross-filter directions | Competence |
+| L9 | Formulate structured extract–transform–load workflows and identify where each stage fails | Competence |
+| L10 | Build reusable transformation steps that clean, restructure and load dimensional data | Courage |
+| L11 | Apply indexing strategies to optimize analytic read speeds and pinpoint slow join paths | Competence |
+| L12 | Design error-routing workflows that isolate corrupt rows without crashing the pipeline, and eliminate duplicates while keeping historical query validity | Competence |
 
 ---
 
