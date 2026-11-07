@@ -1,0 +1,7 @@
+ChangeID,CustomerID,Attribute,OldValue,NewValue,EffectiveDate,ReportedBy,Note
+1,CU-105,City,Lahore,Karachi,2026-04-07,CRM extract 2026-05-02,Head office moved from Lahore to Karachi after the new plant opened
+2,CU-120,City,Gujranwala,Islamabad,2026-04-12,CRM extract 2026-05-02,Registered office moved to Islamabad; Gujranwala kept as a works address
+3,CU-116,City,Peshawar,Lahore,2026-04-19,CRM extract 2026-05-02,Head office moved from Peshawar to Lahore
+4,CU-123,Sector,Electronics,Retail,2026-04-05,CRM extract 2026-05-02,Re-classified by the sales team from Electronics to Retail
+5,CU-132,Sector,Logistics,Marine Services,2026-04-21,CRM extract 2026-05-02,Re-classified from Logistics to Marine Services
+6,CU-140,CustomerName,Keamari Cold Storage,Keamari Cold Chain (Pvt) Ltd,2026-04-15,CRM extract 2026-05-02,"Renamed after acquisition; same business, same premises"

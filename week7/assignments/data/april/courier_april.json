@@ -1,0 +1,10346 @@
+{
+ "carrier": "ShaheenEx Courier Services",
+ "period": "2026-04",
+ "unit_weight": "grams",
+ "status_codes": {
+  "1": "Delivered",
+  "2": "In Transit",
+  "3": "Delayed",
+  "7": "Returned to Origin",
+  "9": "Held at Hub"
+ },
+ "consignments": [
+  {
+   "consignment": "SX-10194",
+   "booked_at": "2026-04-13T17:14:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 9500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-114"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10223",
+   "booked_at": "2026-04-29T07:31:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-105"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-20012",
+   "booked_at": "2026-04-08T17:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 5500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 41500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-130"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10293",
+   "booked_at": "2026-04-30T08:52:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 10500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-105"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10142",
+   "booked_at": "2026-04-28T07:45:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 18500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-903"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10136",
+   "booked_at": "2026-04-12T19:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 26000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-130"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-20004",
+   "booked_at": "2026-04-01T08:22:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 7200000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 47500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-124"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10358",
+   "booked_at": "2026-04-01T18:45:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-906"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10386",
+   "booked_at": "2026-04-17T14:00:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 21500
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-101"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10382",
+   "booked_at": "2026-04-14T11:31:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-110"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10072",
+   "booked_at": "2026-04-02T16:22:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 31000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-110"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10430",
+   "booked_at": "2026-04-21T10:31:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-119"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10107",
+   "booked_at": "2026-04-11T17:31:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 14000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-132"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10443",
+   "booked_at": "2026-04-04T18:22:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 9500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-136"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10272",
+   "booked_at": "2026-04-05T19:22:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 7500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-134"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10209",
+   "booked_at": "2026-04-05T11:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-101"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10321",
+   "booked_at": "2026-04-30T10:22:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Hub Chowki"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 15000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-140"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10241",
+   "booked_at": "2026-04-18T11:31:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-129"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10383",
+   "booked_at": "2026-04-20T13:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 31500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-118"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10189",
+   "booked_at": "2026-04-16T17:22:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 8500
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-103"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10297",
+   "booked_at": "2026-04-10T16:14:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-115"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10283",
+   "booked_at": "2026-04-16T14:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-121"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10436",
+   "booked_at": "2026-04-27T09:07:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 25000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-906"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10190",
+   "booked_at": "2026-04-21T09:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 21000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-132"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10173",
+   "booked_at": "2026-04-01T11:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-116"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10248",
+   "booked_at": "2026-04-11T18:52:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 29500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-138"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10255",
+   "booked_at": "2026-04-20T18:52:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-120"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10013",
+   "booked_at": "2026-04-12T12:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-122"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10307",
+   "booked_at": "2026-04-02T13:22:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 29500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-135"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10011",
+   "booked_at": "2026-04-29T11:00:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-105"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10300",
+   "booked_at": "2026-04-01T11:22:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-119"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10089",
+   "booked_at": "2026-04-12T15:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 10000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-130"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10110",
+   "booked_at": "2026-04-25T08:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-116"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10030",
+   "booked_at": "2026-04-27T08:52:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-124"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10179",
+   "booked_at": "2026-04-10T11:45:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-108"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10456",
+   "booked_at": "2026-04-05T15:52:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-130"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10049",
+   "booked_at": "2026-04-11T18:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 33000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-101"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-20001",
+   "booked_at": "2026-04-14T11:00:00+05:00",
+   "pickup": {
+    "city": "Hyderabad",
+    "hub": "ShaheenEx Hyderabad"
+   },
+   "dropoff": {
+    "city": "Karachi"
+   },
+   "weight_grams": 6700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 52500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-127"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10050",
+   "booked_at": "2026-04-07T07:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-108"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10157",
+   "booked_at": "2026-04-03T08:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-106"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10119",
+   "booked_at": "2026-04-27T18:07:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 7500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-121"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10003",
+   "booked_at": "2026-04-17T12:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 10500
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-902"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10026",
+   "booked_at": "2026-04-10T15:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 25000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-133"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10202",
+   "booked_at": "2026-04-16T15:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-115"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-20003",
+   "booked_at": "2026-04-20T14:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 5700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 37500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-105"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10128",
+   "booked_at": "2026-04-27T11:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-952"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10024",
+   "booked_at": "2026-04-19T18:22:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-138"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10113",
+   "booked_at": "2026-04-16T09:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-106"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10347",
+   "booked_at": "2026-04-05T10:52:00+05:00",
+   "pickup": {
+    "city": "Sost Dry Port",
+    "hub": "ShaheenEx Sost"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-110"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10156",
+   "booked_at": "2026-04-07T18:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-140"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10296",
+   "booked_at": "2026-04-26T15:14:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 34000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-128"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10260",
+   "booked_at": "2026-04-02T14:45:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-104"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10301",
+   "booked_at": "2026-04-12T08:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 30000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-122"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10105",
+   "booked_at": "2026-04-17T08:07:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Sahiwal"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 8000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-123"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10131",
+   "booked_at": "2026-04-27T09:52:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 22500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-132"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10035",
+   "booked_at": "2026-04-17T18:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 27500
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-101"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10114",
+   "booked_at": "2026-04-03T12:45:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 32500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-133"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10083",
+   "booked_at": "2026-04-10T08:07:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-118"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10104",
+   "booked_at": "2026-04-25T12:45:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 10500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-134"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10362",
+   "booked_at": "2026-04-24T11:14:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 14000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-103"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10099",
+   "booked_at": "2026-04-02T16:07:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-138"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10394",
+   "booked_at": "2026-04-27T08:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11000
+   },
+   "status_code": 7,
+   "customer": {
+    "ref": "CU-104"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10032",
+   "booked_at": "2026-04-05T14:14:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-904"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10424",
+   "booked_at": "2026-04-23T15:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 22000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-904"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10153",
+   "booked_at": "2026-04-09T15:14:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 21500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-106"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10040",
+   "booked_at": "2026-04-01T15:52:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 21000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-106"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10389",
+   "booked_at": "2026-04-20T13:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 9000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-106"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10314",
+   "booked_at": "2026-04-12T11:14:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 18500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-104"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10454",
+   "booked_at": "2026-04-04T15:07:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 18500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-122"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10327",
+   "booked_at": "2026-04-23T16:14:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 15000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-103"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10423",
+   "booked_at": "2026-04-25T13:00:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-133"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10295",
+   "booked_at": "2026-04-03T07:22:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 32500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-122"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10409",
+   "booked_at": "2026-04-13T09:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-902"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10450",
+   "booked_at": "2026-04-12T10:45:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 31500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-904"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10232",
+   "booked_at": "2026-04-23T14:31:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 15000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-137"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10061",
+   "booked_at": "2026-04-15T09:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 26000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-117"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-20010",
+   "booked_at": "2026-04-10T18:07:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 6500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 50000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-112"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10320",
+   "booked_at": "2026-04-25T19:14:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 25500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-904"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10437",
+   "booked_at": "2026-04-29T12:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-108"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10016",
+   "booked_at": "2026-04-16T09:45:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-128"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10182",
+   "booked_at": "2026-04-29T16:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 18000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-130"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10311",
+   "booked_at": "2026-04-22T11:31:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-138"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10458",
+   "booked_at": "2026-04-28T19:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Nowshera Yard"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 25500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-113"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10151",
+   "booked_at": "2026-04-27T19:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-124"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10054",
+   "booked_at": "2026-04-21T15:45:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 22500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-138"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10175",
+   "booked_at": "2026-04-08T07:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 25500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-121"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10361",
+   "booked_at": "2026-04-20T18:22:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-131"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10086",
+   "booked_at": "2026-04-17T15:14:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 25500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-110"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10101",
+   "booked_at": "2026-04-09T12:31:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-114"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10365",
+   "booked_at": "2026-04-29T10:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 26000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-124"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10063",
+   "booked_at": "2026-04-17T12:07:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 8500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-904"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10302",
+   "booked_at": "2026-04-03T12:00:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-136"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10093",
+   "booked_at": "2026-04-26T09:00:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 10500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-105"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10334",
+   "booked_at": "2026-04-15T19:07:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 28000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-134"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10080",
+   "booked_at": "2026-04-23T14:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 10500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-108"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10254",
+   "booked_at": "2026-04-07T07:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-118"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10029",
+   "booked_at": "2026-04-26T12:45:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-107"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10097",
+   "booked_at": "2026-04-07T11:45:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 27000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-136"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10081",
+   "booked_at": "2026-04-05T17:45:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-903"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10071",
+   "booked_at": "2026-04-20T18:45:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-110"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10253",
+   "booked_at": "2026-04-04T14:31:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-140"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10366",
+   "booked_at": "2026-04-25T13:14:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 27500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-119"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10205",
+   "booked_at": "2026-04-03T16:31:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 8500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-110"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10033",
+   "booked_at": "2026-04-30T14:22:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 29000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-119"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10426",
+   "booked_at": "2026-04-26T13:07:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 15500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-128"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10376",
+   "booked_at": "2026-04-24T15:45:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-132"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10264",
+   "booked_at": "2026-04-02T12:07:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 27500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-119"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10133",
+   "booked_at": "2026-04-10T14:45:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 21000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-114"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10084",
+   "booked_at": "2026-04-27T17:52:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-127"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10214",
+   "booked_at": "2026-04-29T15:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 28500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-127"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10020",
+   "booked_at": "2026-04-15T12:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-122"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10053",
+   "booked_at": "2026-04-15T17:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 27000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-137"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10444",
+   "booked_at": "2026-04-27T12:07:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 9000
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-116"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10111",
+   "booked_at": "2026-04-05T12:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 22000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-106"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10344",
+   "booked_at": "2026-04-11T18:52:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-117"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10140",
+   "booked_at": "2026-04-11T08:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 14500
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-127"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10449",
+   "booked_at": "2026-04-30T08:31:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-116"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10149",
+   "booked_at": "2026-04-10T07:22:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-102"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10231",
+   "booked_at": "2026-04-18T16:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 14000
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-102"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10275",
+   "booked_at": "2026-04-05T19:45:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-126"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10292",
+   "booked_at": "2026-04-21T11:22:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 31500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-102"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10259",
+   "booked_at": "2026-04-15T10:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-130"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10190",
+   "booked_at": "2026-04-21T13:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 21000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-132"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10141",
+   "booked_at": "2026-04-13T08:52:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 15500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-128"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10018",
+   "booked_at": "2026-04-02T16:00:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 25500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-904"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10098",
+   "booked_at": "2026-04-03T07:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 15500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-119"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10350",
+   "booked_at": "2026-04-12T09:52:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 15000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-134"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10306",
+   "booked_at": "2026-04-03T09:22:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 26000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-124"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10225",
+   "booked_at": "2026-04-28T07:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-136"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10354",
+   "booked_at": "2026-04-30T08:14:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-129"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10134",
+   "booked_at": "2026-04-08T19:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 9000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-106"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10198",
+   "booked_at": "2026-04-23T19:14:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 21500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-119"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10085",
+   "booked_at": "2026-04-18T12:31:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 14000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-132"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10116",
+   "booked_at": "2026-04-06T18:45:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-124"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10010",
+   "booked_at": "2026-04-06T15:14:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-131"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10316",
+   "booked_at": "2026-04-26T12:52:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-133"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10237",
+   "booked_at": "2026-04-15T07:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 27000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-121"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10238",
+   "booked_at": "2026-04-01T12:07:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 10000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-127"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10091",
+   "booked_at": "2026-04-22T10:00:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-128"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10411",
+   "booked_at": "2026-04-15T19:45:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-128"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10446",
+   "booked_at": "2026-04-12T19:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-120"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10337",
+   "booked_at": "2026-04-08T09:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 26500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-136"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10037",
+   "booked_at": "2026-04-03T10:00:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-108"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10318",
+   "booked_at": "2026-04-02T17:22:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-124"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10195",
+   "booked_at": "2026-04-29T07:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-134"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10109",
+   "booked_at": "2026-04-03T18:52:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-140"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10433",
+   "booked_at": "2026-04-21T12:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-106"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10168",
+   "booked_at": "2026-04-16T13:22:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 18000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-105"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-20007",
+   "booked_at": "2026-04-18T12:14:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 6800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 53500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-123"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10188",
+   "booked_at": "2026-04-26T15:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-108"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10166",
+   "booked_at": "2026-04-02T12:31:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-121"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10345",
+   "booked_at": "2026-04-27T14:14:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 8500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-111"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10130",
+   "booked_at": "2026-04-14T07:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 31500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-126"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10233",
+   "booked_at": "2026-04-27T10:07:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 10500
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-133"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10420",
+   "booked_at": "2026-04-15T16:14:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-111"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10021",
+   "booked_at": "2026-04-05T15:07:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-124"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10163",
+   "booked_at": "2026-04-21T08:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 30500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-131"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10287",
+   "booked_at": "2026-04-15T16:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 15000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-903"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10315",
+   "booked_at": "2026-04-26T19:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-954"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10441",
+   "booked_at": "2026-04-09T08:52:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 10500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-951"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10403",
+   "booked_at": "2026-04-11T08:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 7,
+   "customer": {
+    "ref": "CU-133"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10427",
+   "booked_at": "2026-04-20T15:22:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-902"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10453",
+   "booked_at": "2026-04-08T18:00:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-109"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10058",
+   "booked_at": "2026-04-05T16:00:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 18000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-116"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10215",
+   "booked_at": "2026-04-16T16:00:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 33500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-114"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-99030",
+   "booked_at": "2026-04-03T09:22:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 9000000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-140"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10356",
+   "booked_at": "2026-04-27T19:22:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 18000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-128"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10279",
+   "booked_at": "2026-04-09T07:31:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 31000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-131"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10299",
+   "booked_at": "2026-04-18T13:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 32000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-120"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10070",
+   "booked_at": "2026-04-04T09:07:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 7500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-140"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10451",
+   "booked_at": "2026-04-29T12:14:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 22000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-126"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10335",
+   "booked_at": "2026-04-28T11:14:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 30500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-113"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10417",
+   "booked_at": "2026-04-17T16:22:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 8500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-124"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10460",
+   "booked_at": "2026-04-12T12:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 26500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-138"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10352",
+   "booked_at": "2026-04-02T10:45:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-109"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10197",
+   "booked_at": "2026-04-07T09:52:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-120"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10396",
+   "booked_at": "2026-04-06T07:07:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 18000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-123"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10290",
+   "booked_at": "2026-04-01T19:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-110"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10052",
+   "booked_at": "2026-04-13T17:31:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20500
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-116"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10432",
+   "booked_at": "2026-04-16T17:07:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 30000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-905"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10108",
+   "booked_at": "2026-04-23T14:22:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-123"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10407",
+   "booked_at": "2026-04-15T14:52:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23500
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-904"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10398",
+   "booked_at": "2026-04-06T12:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 8500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-125"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10187",
+   "booked_at": "2026-04-11T14:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 26000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-139"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10413",
+   "booked_at": "2026-04-19T14:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 9000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-105"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10323",
+   "booked_at": "2026-04-09T14:07:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-121"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10333",
+   "booked_at": "2026-04-29T12:22:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19500
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-130"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10284",
+   "booked_at": "2026-04-09T16:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 29500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-131"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10252",
+   "booked_at": "2026-04-16T09:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-126"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10250",
+   "booked_at": "2026-04-07T19:14:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 21000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-115"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10275",
+   "booked_at": "2026-04-05T13:45:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-126"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10364",
+   "booked_at": "2026-04-17T14:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20500
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-139"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10312",
+   "booked_at": "2026-04-08T08:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-115"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10280",
+   "booked_at": "2026-04-08T15:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-102"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10039",
+   "booked_at": "2026-04-15T14:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 15500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-110"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10278",
+   "booked_at": "2026-04-23T16:14:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 29500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-131"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10414",
+   "booked_at": "2026-04-29T08:45:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-114"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10355",
+   "booked_at": "2026-04-13T19:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 29500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-105"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10309",
+   "booked_at": "2026-04-15T10:45:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 27000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-112"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10191",
+   "booked_at": "2026-04-16T14:45:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 22500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-140"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10328",
+   "booked_at": "2026-04-11T14:22:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-126"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10421",
+   "booked_at": "2026-04-07T15:00:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17500
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-115"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10332",
+   "booked_at": "2026-04-21T08:52:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 15000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-136"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10001",
+   "booked_at": "2026-04-05T09:52:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-132"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10051",
+   "booked_at": "2026-04-06T09:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 15000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-117"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10317",
+   "booked_at": "2026-04-21T17:07:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 28000
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-137"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10447",
+   "booked_at": "2026-04-05T12:22:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-119"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10336",
+   "booked_at": "2026-04-24T07:31:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 28000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-119"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10415",
+   "booked_at": "2026-04-27T15:07:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-107"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10270",
+   "booked_at": "2026-04-21T15:00:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 14500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-119"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10171",
+   "booked_at": "2026-04-20T09:14:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 31500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-128"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10271",
+   "booked_at": "2026-04-25T13:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 10000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-126"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10059",
+   "booked_at": "2026-04-19T12:31:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-120"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10305",
+   "booked_at": "2026-04-12T12:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 21500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-135"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10005",
+   "booked_at": "2026-04-28T07:52:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 27000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-108"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10442",
+   "booked_at": "2026-04-23T08:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 15500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-109"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10385",
+   "booked_at": "2026-04-11T10:00:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 21000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-112"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-20013",
+   "booked_at": "2026-04-28T08:22:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 5600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 48000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-108"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10204",
+   "booked_at": "2026-04-08T07:07:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-102"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10100",
+   "booked_at": "2026-04-13T16:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-129"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10139",
+   "booked_at": "2026-04-24T11:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-131"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10402",
+   "booked_at": "2026-04-11T07:22:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-120"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10183",
+   "booked_at": "2026-04-26T17:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 22500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-118"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10076",
+   "booked_at": "2026-04-10T19:31:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-131"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10055",
+   "booked_at": "2026-04-23T10:52:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 8000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-135"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10164",
+   "booked_at": "2026-04-30T14:22:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 22000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-132"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10353",
+   "booked_at": "2026-04-12T17:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 18000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-136"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10220",
+   "booked_at": "2026-04-05T09:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 29000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-106"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10027",
+   "booked_at": "2026-04-09T13:00:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 14000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-112"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10266",
+   "booked_at": "2026-04-22T07:14:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 26000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-129"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10242",
+   "booked_at": "2026-04-01T10:52:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 14500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-103"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10069",
+   "booked_at": "2026-04-26T13:14:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-138"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10349",
+   "booked_at": "2026-04-09T15:45:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 7500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-111"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-20009",
+   "booked_at": "2026-04-20T15:22:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 6100000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 46000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-127"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10339",
+   "booked_at": "2026-04-28T12:31:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-106"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10065",
+   "booked_at": "2026-04-30T13:07:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 15000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-124"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10379",
+   "booked_at": "2026-04-24T12:22:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-130"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10079",
+   "booked_at": "2026-04-20T08:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 25500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-138"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10019",
+   "booked_at": "2026-04-27T08:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-105"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10452",
+   "booked_at": "2026-04-12T09:07:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 25500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-108"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10073",
+   "booked_at": "2026-04-26T16:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-132"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10169",
+   "booked_at": "2026-04-17T17:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-114"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10310",
+   "booked_at": "2026-04-02T15:14:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 26500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-121"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10273",
+   "booked_at": "2026-04-17T10:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 14000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-139"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10324",
+   "booked_at": "2026-04-10T08:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-135"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10406",
+   "booked_at": "2026-04-03T08:22:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-129"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10122",
+   "booked_at": "2026-04-03T09:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 26500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-133"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10165",
+   "booked_at": "2026-04-09T13:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-105"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10216",
+   "booked_at": "2026-04-13T09:00:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 22000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-114"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10044",
+   "booked_at": "2026-04-27T13:07:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 10000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-122"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10174",
+   "booked_at": "2026-04-23T16:14:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 30500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-103"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10106",
+   "booked_at": "2026-04-12T08:31:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 21000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-120"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10087",
+   "booked_at": "2026-04-22T16:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 18000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-122"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10371",
+   "booked_at": "2026-04-25T17:31:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-140"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10161",
+   "booked_at": "2026-04-30T15:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-115"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10012",
+   "booked_at": "2026-04-22T12:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 7500
+   },
+   "status_code": 9,
+   "customer": {
+    "ref": "CU-106"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10047",
+   "booked_at": "2026-04-07T14:07:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 9500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-140"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10042",
+   "booked_at": "2026-04-03T10:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 28000
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-107"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10346",
+   "booked_at": "2026-04-06T09:45:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-140"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10045",
+   "booked_at": "2026-04-09T08:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 14500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-903"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10172",
+   "booked_at": "2026-04-15T15:45:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23500
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-101"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10288",
+   "booked_at": "2026-04-10T07:45:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-905"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10177",
+   "booked_at": "2026-04-15T13:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-123"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10007",
+   "booked_at": "2026-04-09T07:22:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-117"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10405",
+   "booked_at": "2026-04-14T15:00:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-128"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-99022",
+   "booked_at": "2026-04-06T14:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": -600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-106"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10291",
+   "booked_at": "2026-04-12T07:31:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-105"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-20014",
+   "booked_at": "2026-04-01T08:14:00+05:00",
+   "pickup": {
+    "city": "Faisalabad",
+    "hub": "ShaheenEx Faisalabad"
+   },
+   "dropoff": {
+    "city": "Multan"
+   },
+   "weight_grams": 5500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 47000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-125"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10319",
+   "booked_at": "2026-04-21T07:14:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 25000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-136"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-99008",
+   "booked_at": "2026-04-22T13:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": "7.2 kg",
+   "charge": {
+    "currency": "PKR",
+    "amount": 18000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-122"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10132",
+   "booked_at": "2026-04-05T07:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 10000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-140"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10294",
+   "booked_at": "2026-04-04T12:07:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 10500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-101"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10117",
+   "booked_at": "2026-04-09T15:52:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-110"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10357",
+   "booked_at": "2026-04-30T08:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-139"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10422",
+   "booked_at": "2026-04-05T16:14:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-103"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10137",
+   "booked_at": "2026-04-06T17:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-106"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10272",
+   "booked_at": "2026-04-05T11:00:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 7500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-134"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10078",
+   "booked_at": "2026-04-03T14:07:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 9000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-121"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10399",
+   "booked_at": "2026-04-02T11:22:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-105"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10046",
+   "booked_at": "2026-04-21T14:14:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-116"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10408",
+   "booked_at": "2026-04-29T15:52:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-136"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10206",
+   "booked_at": "2026-04-08T09:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 31000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-112"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10235",
+   "booked_at": "2026-04-08T17:22:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 18000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-123"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10282",
+   "booked_at": "2026-04-01T14:52:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-110"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10135",
+   "booked_at": "2026-04-08T12:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-127"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10062",
+   "booked_at": "2026-04-21T14:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-127"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10289",
+   "booked_at": "2026-04-05T10:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-119"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10129",
+   "booked_at": "2026-04-02T19:22:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 15000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-140"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10431",
+   "booked_at": "2026-04-10T10:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-118"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10363",
+   "booked_at": "2026-04-05T11:00:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-126"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10438",
+   "booked_at": "2026-04-11T12:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 31000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-125"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10298",
+   "booked_at": "2026-04-09T07:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 18000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-124"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10378",
+   "booked_at": "2026-04-18T19:22:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-901"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10234",
+   "booked_at": "2026-04-13T19:31:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 31000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-113"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10245",
+   "booked_at": "2026-04-25T16:14:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-103"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10138",
+   "booked_at": "2026-04-12T17:07:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 14000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-139"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10056",
+   "booked_at": "2026-04-30T17:22:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 21500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-133"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10075",
+   "booked_at": "2026-04-11T12:31:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-137"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10160",
+   "booked_at": "2026-04-03T08:52:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-105"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10304",
+   "booked_at": "2026-04-25T15:14:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-101"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-20011",
+   "booked_at": "2026-04-30T08:45:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 5600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 44000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-102"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10184",
+   "booked_at": "2026-04-04T09:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 25000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-124"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10113",
+   "booked_at": "2026-04-16T10:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-106"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10014",
+   "booked_at": "2026-04-13T08:07:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 27000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-111"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10258",
+   "booked_at": "2026-04-10T15:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 9000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-131"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10329",
+   "booked_at": "2026-04-19T16:45:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-128"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10015",
+   "booked_at": "2026-04-25T09:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-115"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10391",
+   "booked_at": "2026-04-09T09:00:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-127"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10286",
+   "booked_at": "2026-04-27T09:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-124"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10312",
+   "booked_at": "2026-04-08T18:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-115"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10066",
+   "booked_at": "2026-04-04T09:31:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 25000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-904"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10127",
+   "booked_at": "2026-04-22T08:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 21000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-132"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10057",
+   "booked_at": "2026-04-28T09:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-123"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10416",
+   "booked_at": "2026-04-05T07:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 27000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-121"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10351",
+   "booked_at": "2026-04-12T15:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-133"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10048",
+   "booked_at": "2026-04-03T07:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-108"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10400",
+   "booked_at": "2026-04-04T10:22:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16000
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-113"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10144",
+   "booked_at": "2026-04-05T19:22:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-118"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10375",
+   "booked_at": "2026-04-11T18:00:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-134"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10244",
+   "booked_at": "2026-04-17T18:00:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 22500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-113"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10022",
+   "booked_at": "2026-04-12T19:52:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 14000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-139"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10384",
+   "booked_at": "2026-04-28T14:14:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 25500
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-124"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10222",
+   "booked_at": "2026-04-13T07:52:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Sahiwal"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 29500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-101"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10435",
+   "booked_at": "2026-04-01T11:00:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-109"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10419",
+   "booked_at": "2026-04-12T10:07:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 22000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-112"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10074",
+   "booked_at": "2026-04-23T17:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-110"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10218",
+   "booked_at": "2026-04-06T12:52:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-106"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10247",
+   "booked_at": "2026-04-12T13:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Nowshera Yard"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 15000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-114"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10125",
+   "booked_at": "2026-04-02T11:07:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-906"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10348",
+   "booked_at": "2026-04-28T15:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-109"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10251",
+   "booked_at": "2026-04-12T16:07:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-115"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10090",
+   "booked_at": "2026-04-09T17:31:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-139"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10068",
+   "booked_at": "2026-04-23T11:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16000
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-106"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10167",
+   "booked_at": "2026-04-17T10:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 28500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-133"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-20002",
+   "booked_at": "2026-04-13T14:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 6000000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 45500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-116"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10200",
+   "booked_at": "2026-04-12T15:00:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-126"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10096",
+   "booked_at": "2026-04-25T19:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 14500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-109"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10261",
+   "booked_at": "2026-04-05T19:07:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-901"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10208",
+   "booked_at": "2026-04-30T18:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-105"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10219",
+   "booked_at": "2026-04-01T13:31:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-110"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10123",
+   "booked_at": "2026-04-13T11:14:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 18500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-136"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10226",
+   "booked_at": "2026-04-14T11:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-104"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10115",
+   "booked_at": "2026-04-07T12:45:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-116"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10102",
+   "booked_at": "2026-04-17T16:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-904"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10263",
+   "booked_at": "2026-04-09T16:22:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-104"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10014",
+   "booked_at": "2026-04-13T15:22:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 27000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-111"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10199",
+   "booked_at": "2026-04-29T14:07:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 18000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-131"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10224",
+   "booked_at": "2026-04-29T19:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 27500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-110"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10281",
+   "booked_at": "2026-04-21T14:31:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-138"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10404",
+   "booked_at": "2026-04-27T12:00:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-120"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10118",
+   "booked_at": "2026-04-07T15:45:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-119"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10448",
+   "booked_at": "2026-04-29T15:07:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-115"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10388",
+   "booked_at": "2026-04-11T19:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-123"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10077",
+   "booked_at": "2026-04-13T09:52:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-118"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10397",
+   "booked_at": "2026-04-23T10:45:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-133"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10445",
+   "booked_at": "2026-04-02T18:14:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-133"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10211",
+   "booked_at": "2026-04-09T19:22:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-108"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-20005",
+   "booked_at": "2026-04-05T18:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 5500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 42500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-136"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10170",
+   "booked_at": "2026-04-02T07:22:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-103"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10192",
+   "booked_at": "2026-04-11T16:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-138"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10359",
+   "booked_at": "2026-04-30T08:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 28500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-107"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10236",
+   "booked_at": "2026-04-29T18:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-140"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10267",
+   "booked_at": "2026-04-12T17:31:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-114"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10325",
+   "booked_at": "2026-04-02T09:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 15000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-104"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10269",
+   "booked_at": "2026-04-25T19:00:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 27500
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-109"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10249",
+   "booked_at": "2026-04-25T10:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-134"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10148",
+   "booked_at": "2026-04-06T18:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 15000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-134"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10246",
+   "booked_at": "2026-04-19T09:07:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-125"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10162",
+   "booked_at": "2026-04-12T09:00:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 26000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-118"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10369",
+   "booked_at": "2026-04-04T14:00:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-107"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-99034",
+   "booked_at": "2026-04-14T18:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": null
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-126"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10395",
+   "booked_at": "2026-04-19T17:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 8500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-117"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10212",
+   "booked_at": "2026-04-24T16:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 14000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-111"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10439",
+   "booked_at": "2026-04-04T13:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 28500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-129"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10181",
+   "booked_at": "2026-04-12T13:52:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 26500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-105"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10094",
+   "booked_at": "2026-04-07T19:45:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-101"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10276",
+   "booked_at": "2026-04-08T09:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-953"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10120",
+   "booked_at": "2026-04-05T11:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-114"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10257",
+   "booked_at": "2026-04-07T09:00:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-137"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10412",
+   "booked_at": "2026-04-01T12:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-123"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10064",
+   "booked_at": "2026-04-11T14:07:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 8500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-133"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10186",
+   "booked_at": "2026-04-01T14:14:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 22500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-110"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10043",
+   "booked_at": "2026-04-05T16:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 22000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-129"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10390",
+   "booked_at": "2026-04-12T15:22:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 22500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-122"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10368",
+   "booked_at": "2026-04-23T18:22:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 15500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-110"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10158",
+   "booked_at": "2026-04-17T07:00:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 14500
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-126"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10434",
+   "booked_at": "2026-04-11T19:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-106"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10008",
+   "booked_at": "2026-04-04T10:52:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 18000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-118"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10207",
+   "booked_at": "2026-04-03T14:00:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-113"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10374",
+   "booked_at": "2026-04-16T12:00:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-121"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10457",
+   "booked_at": "2026-04-16T17:22:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-137"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10313",
+   "booked_at": "2026-04-13T17:52:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-124"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10031",
+   "booked_at": "2026-04-30T15:31:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-113"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10036",
+   "booked_at": "2026-04-23T11:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-104"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10274",
+   "booked_at": "2026-04-21T08:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-110"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10322",
+   "booked_at": "2026-04-19T11:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 21000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-114"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10265",
+   "booked_at": "2026-04-04T10:45:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 15500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-122"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10380",
+   "booked_at": "2026-04-05T09:14:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-102"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10410",
+   "booked_at": "2026-04-19T18:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-119"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10124",
+   "booked_at": "2026-04-29T17:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-902"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-20008",
+   "booked_at": "2026-04-12T08:31:00+05:00",
+   "pickup": {
+    "city": "Faisalabad",
+    "hub": "ShaheenEx Faisalabad"
+   },
+   "dropoff": {
+    "city": "Multan"
+   },
+   "weight_grams": 7000000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 55000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-128"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10365",
+   "booked_at": "2026-04-29T09:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 26000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-124"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10121",
+   "booked_at": "2026-04-17T07:22:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-109"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10459",
+   "booked_at": "2026-04-11T17:31:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-134"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10034",
+   "booked_at": "2026-04-20T18:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 18000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-116"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10152",
+   "booked_at": "2026-04-05T13:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-111"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10038",
+   "booked_at": "2026-04-17T09:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-111"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10268",
+   "booked_at": "2026-04-06T12:45:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 10000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-105"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10428",
+   "booked_at": "2026-04-27T17:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-107"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10393",
+   "booked_at": "2026-04-11T17:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-126"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10185",
+   "booked_at": "2026-04-11T10:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 26500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-116"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10381",
+   "booked_at": "2026-04-19T16:07:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 26000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-107"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10002",
+   "booked_at": "2026-04-08T18:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-131"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10095",
+   "booked_at": "2026-04-21T13:22:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-134"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10112",
+   "booked_at": "2026-04-16T13:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-129"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10227",
+   "booked_at": "2026-04-05T13:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-137"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10285",
+   "booked_at": "2026-04-12T11:14:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-140"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10143",
+   "booked_at": "2026-04-18T14:45:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 25000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-106"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10154",
+   "booked_at": "2026-04-12T10:22:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-133"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10429",
+   "booked_at": "2026-04-29T16:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 22500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-104"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10256",
+   "booked_at": "2026-04-07T08:45:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-104"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10092",
+   "booked_at": "2026-04-12T12:22:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-121"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10331",
+   "booked_at": "2026-04-04T19:00:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-132"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-99009",
+   "booked_at": "2026-04-08T15:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": null,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-127"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10004",
+   "booked_at": "2026-04-20T07:31:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 26000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-102"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10193",
+   "booked_at": "2026-04-25T09:22:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 27000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-114"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10340",
+   "booked_at": "2026-04-04T11:14:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 30000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-135"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10425",
+   "booked_at": "2026-04-17T07:22:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 21000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-123"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10028",
+   "booked_at": "2026-04-18T12:31:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 22000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-105"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10326",
+   "booked_at": "2026-04-11T09:07:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20000
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-111"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10330",
+   "booked_at": "2026-04-03T12:07:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-131"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10203",
+   "booked_at": "2026-04-22T11:07:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-114"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10210",
+   "booked_at": "2026-04-29T17:45:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 26000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-109"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10150",
+   "booked_at": "2026-04-20T15:07:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-110"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10308",
+   "booked_at": "2026-04-28T18:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-124"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10145",
+   "booked_at": "2026-04-22T10:45:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-115"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10367",
+   "booked_at": "2026-04-27T14:00:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 25000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-133"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10401",
+   "booked_at": "2026-04-02T12:14:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 25500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-123"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10231",
+   "booked_at": "2026-04-18T16:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 14000
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-102"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10377",
+   "booked_at": "2026-04-29T16:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 20500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-118"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10338",
+   "booked_at": "2026-04-20T16:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 9000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-130"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10023",
+   "booked_at": "2026-04-05T13:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 15000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-122"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10117",
+   "booked_at": "2026-04-09T07:22:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-110"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10440",
+   "booked_at": "2026-04-04T18:00:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 22000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-122"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10239",
+   "booked_at": "2026-04-12T08:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 28000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-129"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10147",
+   "booked_at": "2026-04-18T11:14:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-139"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10060",
+   "booked_at": "2026-04-15T12:52:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 21000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-115"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10217",
+   "booked_at": "2026-04-28T07:52:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 14000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-107"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10277",
+   "booked_at": "2026-04-28T17:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-125"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10262",
+   "booked_at": "2026-04-19T18:22:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-122"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10280",
+   "booked_at": "2026-04-08T15:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-102"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10067",
+   "booked_at": "2026-04-05T10:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 18500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-135"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10180",
+   "booked_at": "2026-04-30T14:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 27500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-107"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10196",
+   "booked_at": "2026-04-02T08:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 30000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-121"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10082",
+   "booked_at": "2026-04-09T14:00:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-111"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10372",
+   "booked_at": "2026-04-11T16:45:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 26500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-134"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10230",
+   "booked_at": "2026-04-03T15:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-904"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "",
+   "booked_at": "2026-04-21T17:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 600000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-110"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10146",
+   "booked_at": "2026-04-22T08:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sahiwal"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-136"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10303",
+   "booked_at": "2026-04-14T12:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 28000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-131"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10342",
+   "booked_at": "2026-04-07T16:31:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 28000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-903"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10159",
+   "booked_at": "2026-04-08T15:31:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-906"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10017",
+   "booked_at": "2026-04-09T08:22:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 29000
+   },
+   "status_code": 9,
+   "customer": {
+    "ref": "CU-117"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10240",
+   "booked_at": "2026-04-20T17:45:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-112"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10418",
+   "booked_at": "2026-04-30T08:00:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 14500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-111"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10343",
+   "booked_at": "2026-04-21T11:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 23500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-112"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-20006",
+   "booked_at": "2026-04-13T12:45:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 6800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 58000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-124"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10025",
+   "booked_at": "2026-04-23T09:31:00+05:00",
+   "pickup": {
+    "city": "Karachi",
+    "hub": "ShaheenEx Karachi"
+   },
+   "dropoff": {
+    "city": "Hyderabad"
+   },
+   "weight_grams": 550000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13500
+   },
+   "status_code": 3,
+   "customer": {
+    "ref": "CU-138"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10176",
+   "booked_at": "2026-04-06T09:07:00+05:00",
+   "pickup": {
+    "city": "Sialkot",
+    "hub": "ShaheenEx Sialkot"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 19500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-101"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10387",
+   "booked_at": "2026-04-19T15:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 32000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-135"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10221",
+   "booked_at": "2026-04-25T11:14:00+05:00",
+   "pickup": {
+    "city": "Islamabad",
+    "hub": "ShaheenEx Islamabad"
+   },
+   "dropoff": {
+    "city": "Peshawar"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 29000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-132"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10360",
+   "booked_at": "2026-04-28T10:52:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-118"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-20015",
+   "booked_at": "2026-04-15T13:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 6700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 43000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-101"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10455",
+   "booked_at": "2026-04-12T11:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 24000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-137"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10341",
+   "booked_at": "2026-04-26T18:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 12000
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-108"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10392",
+   "booked_at": "2026-04-13T09:45:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 28000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-137"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10006",
+   "booked_at": "2026-04-12T10:52:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 650000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-125"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10041",
+   "booked_at": "2026-04-08T19:52:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 13500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-121"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10229",
+   "booked_at": "2026-04-19T14:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 350000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 10500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-104"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10228",
+   "booked_at": "2026-04-08T19:45:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 700000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 17000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-126"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10155",
+   "booked_at": "2026-04-16T15:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Gujranwala"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 14500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-134"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10103",
+   "booked_at": "2026-04-02T07:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 850000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 32000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-133"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10009",
+   "booked_at": "2026-04-22T07:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 26500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-114"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10243",
+   "booked_at": "2026-04-11T13:14:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 22000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-134"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10088",
+   "booked_at": "2026-04-29T10:45:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 25500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-113"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10126",
+   "booked_at": "2026-04-17T07:14:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 750000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 18000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-140"
+   },
+   "service": "standard"
+  },
+  {
+   "consignment": "SX-10213",
+   "booked_at": "2026-04-09T09:22:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Sialkot"
+   },
+   "weight_grams": 450000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-101"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10178",
+   "booked_at": "2026-04-18T15:22:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 900000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 29000
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-133"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10201",
+   "booked_at": "2026-04-29T12:14:00+05:00",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 400000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 11500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-122"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10373",
+   "booked_at": "2026-04-30T18:07:00+05:00",
+   "pickup": {
+    "city": "Multan",
+    "hub": "ShaheenEx Multan"
+   },
+   "dropoff": {
+    "city": "Lahore"
+   },
+   "weight_grams": 300000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 7500
+   },
+   "status_code": 2,
+   "customer": {
+    "ref": "CU-119"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-99016",
+   "booked_at": "not-a-date",
+   "pickup": {
+    "city": "Rawalpindi",
+    "hub": "ShaheenEx Rawalpindi"
+   },
+   "dropoff": {
+    "city": "Abbottabad"
+   },
+   "weight_grams": 500000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 16500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-902"
+   },
+   "service": "overnight"
+  },
+  {
+   "consignment": "SX-10370",
+   "booked_at": "2026-04-17T13:07:00+05:00",
+   "pickup": {
+    "city": "Lahore",
+    "hub": "ShaheenEx Lahore"
+   },
+   "dropoff": {
+    "city": "Faisalabad"
+   },
+   "weight_grams": 800000,
+   "charge": {
+    "currency": "PKR",
+    "amount": 26500
+   },
+   "status_code": 1,
+   "customer": {
+    "ref": "CU-136"
+   },
+   "service": "overnight"
+  }
+ ]
+}

@@ -19,6 +19,7 @@ Every week is a self-contained folder: a short README, the data, and one `TASKS.
 | **4** | Dimensional Modeling | L7 Star schema against snowflake schema · L8 Relationships in Power BI | [`week4/`](week4/) |
 | **5** | The ETL Process | L9 Extract, transform, load and what each stage guarantees · L10 Power Query, live | [`week5/`](week5/) |
 | **6** | Query Optimization & Data Quality | L11 Indexing, and what a query plan is telling you · L12 Data quality, deduplication and error routing | [`week6/`](week6/) |
+| **7** | Integration, History & OLAP | L13 Slowly changing dimensions · L14 OLAP navigation and aggregates | [`week7/`](week7/) |
 
 More weeks will be added here as the course runs.
 
@@ -47,6 +48,9 @@ open week5/assignments/data/PakFreight_W5_ETLLab_STUDENT.xlsx
 
 # Week 6 — data is already committed; open the workbook
 open week6/assignments/data/PakFreight_W6_QualityLab_STUDENT.xlsx
+
+# Week 7 — data is already committed; open the workbook
+open week7/assignments/data/PakFreight_W7_IntegrationLab_STUDENT.xlsx
 ```
 
 **Requirements:** Python 3.9+, and:
@@ -55,7 +59,7 @@ open week6/assignments/data/PakFreight_W6_QualityLab_STUDENT.xlsx
 pip install pandas openpyxl
 ```
 
-**Power BI Desktop** is needed for the hands-on tasks (Week 1 Task 5, Week 2 Task 4, Week 3 lab, Week 4 lab, Week 5 lab, Week 6 lab). It is free, and Windows-only. On macOS or Linux use Power BI Service at `app.powerbi.com`, or a lab machine — just say which you used in your submission. Week 5's lab is Power Query, which also ships inside Excel (**Data → Get Data**) if that is easier. The same is true of Week 6's, and both weeks also accept a pandas pipeline for full marks.
+**Power BI Desktop** is needed for the hands-on tasks (Week 1 Task 5, Week 2 Task 4, Week 3 lab, Week 4 lab, Week 5 lab, Week 6 lab, Week 7 lab). It is free, and Windows-only. On macOS or Linux use Power BI Service at `app.powerbi.com`, or a lab machine — just say which you used in your submission. Week 5's lab is Power Query, which also ships inside Excel (**Data → Get Data**) if that is easier. The same is true of Week 6's and Week 7's, and all three weeks also accept a pandas pipeline for full marks. Week 7 adds a JSON source, which Power Query reads through **Data → Get Data → From JSON**.
 
 > `.pbix` files are gitignored. Submit yours through the LMS, not by committing it here.
 
@@ -66,6 +70,8 @@ pip install pandas openpyxl
 **CLO1 — Identify how a data warehouse supports organizational decision-making.** (Weeks 1–2)
 **CLO2 — Design dimensional models for analytical workloads.** (Weeks 3–4)
 **CLO3 — Build and operate the pipelines that load and maintain a warehouse.** (Week 5 onwards)
+
+Week 7 is the integration week: it is marked against all three outcomes at once, and it is the last week before the Week 8 midterm.
 
 Each lecture carries a 3C character strand:
 
@@ -83,6 +89,8 @@ Each lecture carries a 3C character strand:
 | L10 | Build reusable transformation steps that clean, restructure and load dimensional data | Courage |
 | L11 | Apply indexing strategies to optimize analytic read speeds and pinpoint slow join paths | Competence |
 | L12 | Design error-routing workflows that isolate corrupt rows without crashing the pipeline, and eliminate duplicates while keeping historical query validity | Competence |
+| L13 | Implement slowly changing dimension logic that absorbs source changes without invalidating previously published reports | Competence |
+| L14 | Answer executive questions by navigating a dimensional model through roll-up, drill-down, slice, dice and pivot, and justify an aggregate table against its maintenance cost | Courage |
 
 ---
 
@@ -212,3 +220,70 @@ because Week 4 starts by assuming the star works.
 The teacher key, the in-class quick check and its marking scheme, and the
 generator scripts are **not** in this repository. `.gitignore` blocks
 `*TEACHER*`, `*_KEY*` and `*ANSWER*` from ever being committed here.
+
+---
+
+## Week 7 — Integration, History & OLAP
+
+**CLO1 + CLO2 + CLO3 — the integration week, and the last one before the midterm.**
+
+Week 7 is where the six weeks before it are marked together. A **fourth
+carrier** arrives and files **JSON** — grams, integer status codes, nested
+objects, booking timestamps — so Week 2's three mismatched files become four
+and the fourth is not tabular. February's 34 rows and March's 1,200 are handed
+over verified, so the deliverable is one integrated fact table of **2,934 rows,
+36,036,400 kg, PKR 309,882,000.**
+
+| Task | Topic | Marks |
+|---|---|---|
+| 1 | The warehouse end to end: a fourth source placed across the tiers | 10 |
+| 2 | Profile four sources against one contract | 12 |
+| 3 | Reject, route, remove — and a reject schema that survives JSON | 14 |
+| 4 | The identity across four sources, and four wrong totals | 12 |
+| 5 | **Slowly changing dimensions, and the 883,350 kg that moves if you overwrite** | 18 |
+| 6 | OLAP navigation: roll-up, drill-down, slice, dice, pivot | 14 |
+| 7 | Selectivity, the index, and the aggregate table | 12 |
+| 8 | **Definition of done.** Twelve checks, all twelve must pass | 8 |
+| lab | **Hands-on:** the integrated load | — |
+
+### The one number the week is built around
+
+Six customers changed during April. Three of them moved head office across a
+provincial border. Overwrite the dimension — Type 1, which is what almost every
+tool does by default — and March's province table re-allocates itself:
+
+| Province | As published | After a Type 1 overwrite | Difference |
+|---|---|---|---|
+| Balochistan | 1,863,700 | 1,863,700 | — |
+| Islamabad ICT | 340,650 | 609,150 | **+268,500** |
+| Khyber Pakhtunkhwa | 2,162,900 | 1,832,450 | **−330,450** |
+| Punjab | **7,566,850** | **7,344,400** | **−222,450** |
+| Sindh | 5,607,950 | 5,892,350 | **+284,400** |
+| **Total** | **17,542,050** | **17,542,050** | **0** |
+
+**883,350 kg of March's freight changes province and the total is right to the
+kilogram either way.** The reject log does not catch it, the reconciliation
+identity does not catch it, and the figure the board was given in April is now
+wrong. That is the whole week, and it is why T5 carries 18 of the 100 marks.
+
+The Difference column shows only **552,900 kg** of that movement, because one
+customer moved *into* Punjab while two moved out. Netting is the second
+mistake available here, and the workbook marks both figures separately.
+
+The asymmetry is what hides it: Islamabad ICT rises 79%, which nobody reads,
+and Punjab falls 2.9%, which everybody does.
+
+### The twelve checks
+
+**1,805 = 1,700 + 35 + 70**, April at **17,915,700 kg** and **PKR
+158,037,000**, 18 rows on the Unknown city, 9 on the Unknown status, 11 on the
+Unknown customer, `DimCustomer` at 47 rows with 41 current, `DimDate` at 120 —
+and check 12, **Punjab, March, 7,566,850 kg**, which is the only check in this
+course that is passed by *not* doing something.
+
+### Teacher material
+
+The teacher key, the generator, the file-level verifier and the in-class quick
+check are **not** in this repository. `.gitignore` blocks `*TEACHER*`, `*_KEY*`
+and `*ANSWER*` from ever being committed here.
+
